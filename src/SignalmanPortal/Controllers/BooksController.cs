@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SignalmanPortal.Controllers
 {
-    public class LearnController : Controller
+    public class BooksController : Controller
     {
         public IActionResult Index()
         {

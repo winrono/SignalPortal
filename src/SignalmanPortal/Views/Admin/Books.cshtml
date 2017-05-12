@@ -1,0 +1,29 @@
+﻿@model IEnumerable<SignalmanPortal.Models.Books.Book>
+<h2>Администрирование книг</h2>
+<p>
+    <a asp-action="BookCreate">Создать книгу</a>
+</p>
+@foreach (var item in Model)
+{
+    <div class="row">
+        <div class="col-md-10">
+            <div class="col-md-3 book-edit-field">
+                @Html.DisplayFor(modelItem => item.Name)
+            </div>
+            <div class="col-md-3 book-edit-field">
+                @Html.DisplayFor(modelItem => item.Description)
+            </div>
+            <div class="col-md-3 book-edit-field">
+                @Html.DisplayFor(modelItem => item.ImagePath)
+            </div>
+            <div class="col-md-3 book-edit-field">
+                @Html.DisplayFor(modelItem => item.Price)
+            </div>
+        </div>
+        <div class="col-md-2">
+            <a asp-action="BookEdit" asp-route-id="@item.BookId">Редактировать</a>
+            <a asp-action="BookDelete" asp-route-id="@item.BookId" deleteBookLink>Удалить</a>
+        </div>
+        <hr />
+    </div>
+}

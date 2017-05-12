@@ -1,0 +1,24 @@
+﻿@model IEnumerable<SignalmanPortal.Models.News.Novelty>
+<h2>Администрирование новостей</h2>
+<p>
+    <a asp-action="NoveltyCreate">Создать новость</a>
+</p>
+@foreach (var item in Model)
+{
+    <div class="row">
+        <div class="col-md-4 novelty-edit-field">
+            @Html.DisplayFor(modelItem => item.Title)
+        </div>
+        <div class="col-md-4 novelty-edit-field">
+            @Html.DisplayFor(modelItem => item.Description)
+        </div>
+        <div class="col-md-2 novelty-edit-field">
+            @Html.DisplayFor(modelItem => item.DateAdded)
+        </div>
+        <div class="col-md-2">
+            <a asp-action="NoveltyEdit" asp-route-id="@item.NoveltyId">Редактировать</a>
+            <a asp-action="NoveltyDelete" asp-route-id="@item.NoveltyId" deleteNoveltyLink>Удалить</a>
+        </div>
+        <hr />
+    </div>
+}

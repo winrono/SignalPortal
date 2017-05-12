@@ -1,0 +1,14 @@
+﻿@model IEnumerable<SignalmanPortal.Models.News.Novelty>
+<hr />
+@foreach (var item in Model)
+{
+    <div style="height:120px; float:left; margin:10px 0; padding:0;" class="col-md-4">
+        <div style="background-color:#f7f7f7; margin:0 10px; height:inherit; position:inherit; border:1px solid grey" class="novelty-inner">
+            <a asp-area="" asp-controller="News" asp-action="Details" asp-route-id="@item.NoveltyId" style="display:block; width:inherit; height: inherit;" class="novelty-inner-link">
+                <p class="news-title">
+                    @Html.DisplayFor(modelItem => item.Title)
+                </p>
+            </a>
+        </div>
+    </div>
+}

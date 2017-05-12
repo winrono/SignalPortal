@@ -8,6 +8,19 @@
 {
     <form asp-area="" asp-controller="Account" asp-action="LogOff" method="post" id="logoutForm" class="navbar-right">
         <ul class="nav navbar-nav navbar-right">
+            @{if (User.IsInRole("Administrator"))
+                {
+                    <li id="adminList" title="Администрирование" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown"><img src="~/images/admin.svg" /></a>
+                        <ul class="dropdown-menu dropdown-menu-left">
+                            <li><a asp-controller="Admin" asp-action="News">Управление новостями</a></li>
+                            <li><a asp-controller="Admin" asp-action="Learn">Управление обучающими материалами</a></li>
+                        </ul>
+                    </li>
+                }
+            }
+            <li><a title="О нас" asp-area="" asp-controller="Home" asp-action="About"><img src="~/images/about-us.svg" /></a></li>
+            <li><a title="Контакты" asp-area="" asp-controller="Home" asp-action="Contact"><img src="~/images/contacts.svg" /></a></li>
             <li>
                 <a id="manage-link" asp-area="" asp-controller="Manage" asp-action="Index" title="Изменить параметры аккаунта">Авторизирован как @UserManager.GetUserName(User)</a>
             </li>
@@ -18,19 +31,19 @@
             </li>
         </ul>
     </form>
-}
-else
-{
-    <ul class="nav navbar-nav navbar-right">
-        <li>
-            <a title="Зарегистрироваться" asp-area="" asp-controller="Account" asp-action="Register">
-                <img src="~/images/register.svg" />
-            </a>
-        </li>
-        <li>
-            <a title="Авторизироваться" asp-area="" asp-controller="Account" asp-action="Login">
-                <img src="~/images/login.svg" />
-            </a>
-        </li>
-    </ul>
-}
+                }
+                else
+                {
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a title="Зарегистрироваться" asp-area="" asp-controller="Account" asp-action="Register">
+                                <img src="~/images/register.svg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a title="Авторизироваться" asp-area="" asp-controller="Account" asp-action="Login">
+                                <img src="~/images/login.svg" />
+                            </a>
+                        </li>
+                    </ul>
+                }

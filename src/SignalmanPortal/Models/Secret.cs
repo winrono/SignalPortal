@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SignalmanPortal.Models.LearningViewModels
+namespace SignalmanPortal.Models
 {
-    public class ArticlesViewModel
+    public class Secret
     {
+        public string secretCode { get; set; }
     }
 }
