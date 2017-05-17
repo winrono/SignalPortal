@@ -172,25 +172,25 @@ namespace SignalmanPortal.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("SignalmanPortal.Models.Book", b =>
+            modelBuilder.Entity("SignalmanPortal.Models.Books.Book", b =>
                 {
                     b.Property<int>("BookId")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Description");
 
-                    b.Property<string>("ImagePath");
+                    b.Property<string>("ImageExtension");
 
                     b.Property<string>("Name");
 
-                    b.Property<int>("Price");
+                    b.Property<decimal>("Price");
 
                     b.HasKey("BookId");
 
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("SignalmanPortal.Models.Novelty", b =>
+            modelBuilder.Entity("SignalmanPortal.Models.News.Novelty", b =>
                 {
                     b.Property<int>("NoveltyId")
                         .ValueGeneratedOnAdd();

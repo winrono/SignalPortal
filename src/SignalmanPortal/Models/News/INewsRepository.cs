@@ -14,5 +14,7 @@ namespace SignalmanPortal.Models.News
         void EditNovelty(Novelty novelty);
 
         bool DeleteNoveltyById(int id);
+
+        Novelty getNoveltyById(int id);
     }
-    }
+}

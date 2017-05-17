@@ -250,6 +250,10 @@ D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Data\Migrations\
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Data\Migrations\20170511213038_books.Designer.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Data\Migrations\20170511213322_books_price.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Data\Migrations\20170511213322_books_price.Designer.cs
+D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Data\Migrations\20170515225057_books_update_price.cs
+D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Data\Migrations\20170515225057_books_update_price.Designer.cs
+D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Data\Migrations\20170517000609_Books_ImageExtension.cs
+D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Data\Migrations\20170517000609_Books_ImageExtension.Designer.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Data\Migrations\ApplicationDbContextModelSnapshot.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Initialization\RolesInitializer.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\ApplicationUser.cs
@@ -264,7 +268,6 @@ D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\AccountVi
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\Books\Book.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\Books\BooksRepository.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\Books\IBooksRepository.cs
-D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\LearningViewModels\ArticlesViewModel.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\ManageViewModels\AddPhoneNumberViewModel.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\ManageViewModels\ChangePasswordViewModel.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\ManageViewModels\ConfigureTwoFactorViewModel.cs

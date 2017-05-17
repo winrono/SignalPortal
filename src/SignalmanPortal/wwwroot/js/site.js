@@ -12,7 +12,7 @@
         $(this).tooltip('enable');
     });
 
-    $('[deleteNoveltyLink]').click(function (e) {
+    $('[deleteNoveltyLink], [deleteBookLink]').click(function (e) {
 
         var that = this;
 

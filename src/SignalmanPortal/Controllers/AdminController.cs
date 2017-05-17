@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using SignalmanPortal.Models.News;
 using SignalmanPortal.Data;
 using Microsoft.AspNetCore.Authorization;
+using SignalmanPortal.Models.Books;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Hosting;
 
 namespace SignalmanPortal.Controllers
 {
@@ -13,10 +16,13 @@ namespace SignalmanPortal.Controllers
     public class AdminController : Controller
     {
         private readonly INewsRepository _newsRepository;
+        private readonly IBooksRepository _booksRepository;
         private readonly ApplicationDbContext _dbContext;
-        public AdminController(INewsRepository newsRepository, ApplicationDbContext dbContext)
+        private IHostingEnvironment _hostingEnvironment;
+        public AdminController(INewsRepository newsRepository, IBooksRepository booksRepository, ApplicationDbContext dbContext)
         {
             _newsRepository = newsRepository;
+            _booksRepository = booksRepository;
             _dbContext = dbContext;
         }
 
@@ -29,8 +35,6 @@ namespace SignalmanPortal.Controllers
         [HttpGet]
         public IActionResult NoveltyEdit(int id)
         {
-            ModelState.Remove("NoveltyId");
-
             var novelty = _newsRepository.News.SingleOrDefault(n => n.NoveltyId == id);
 
             if (novelty != null)
@@ -68,13 +72,55 @@ namespace SignalmanPortal.Controllers
         }
 
         public bool NoveltyDelete(int id)
-        {       
+        {
             return _newsRepository.DeleteNoveltyById(id);
         }
 
-        public IActionResult Learn()
+        public IActionResult Books()
+        {
+            return View(_booksRepository.Books);
+        }
+
+        [HttpGet]
+        public IActionResult BookEdit(int id)
+        {
+            var book = _booksRepository.Books.SingleOrDefault(n => n.BookId == id);
+
+            if (book != null)
+            {
+                return View(book);
+            }
+            else
+            {
+                return View("Index");
+            }
+        }
+
+        [HttpPost]
+        public IActionResult BookEdit(Book model)
+        {
+            _booksRepository.EditBook(model);
+
+            return RedirectToAction("Books");
+        }
+
+        [HttpGet]
+        public IActionResult BookCreate()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult BookCreate(Book model, IFormFile uploadedFile)
+        {
+            _booksRepository.InsertBook(model, uploadedFile);
+
+            return RedirectToAction("Books");
+        }
+
+        public bool BookDelete(int id)
+        {
+            return _booksRepository.DeleteBookById(id);
         }
     }
 }

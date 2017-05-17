@@ -14,16 +14,11 @@
                         <a class="dropdown-toggle" data-toggle="dropdown"><img src="~/images/admin.svg" /></a>
                         <ul class="dropdown-menu dropdown-menu-left">
                             <li><a asp-controller="Admin" asp-action="News">Управление новостями</a></li>
-                            <li><a asp-controller="Admin" asp-action="Learn">Управление обучающими материалами</a></li>
+                            <li><a asp-controller="Admin" asp-action="Books">Управление обучающими материалами</a></li>
                         </ul>
                     </li>
                 }
             }
-            <li><a title="О нас" asp-area="" asp-controller="Home" asp-action="About"><img src="~/images/about-us.svg" /></a></li>
-            <li><a title="Контакты" asp-area="" asp-controller="Home" asp-action="Contact"><img src="~/images/contacts.svg" /></a></li>
-            <li>
-                <a id="manage-link" asp-area="" asp-controller="Manage" asp-action="Index" title="Изменить параметры аккаунта">Авторизирован как @UserManager.GetUserName(User)</a>
-            </li>
             <li>
                 <button id="logout-btn" type="submit" class="btn btn-link navbar-btn navbar-link" title="Выйти">
                     <img src="~/images/logout.svg" />

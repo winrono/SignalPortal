@@ -24,7 +24,7 @@ namespace SignalmanPortal.Controllers
 
         public IActionResult Details(int id)
         {
-            var model =_newsRepository.News.SingleOrDefault(x => x.NoveltyId == id);
+            var model = _newsRepository.getNoveltyById(id);
             return View(model);
         }
     }

@@ -56,7 +56,7 @@ namespace SignalmanPortal.Models.News
             _dbContext.SaveChanges();
         }
 
-        private Novelty getNoveltyById(int id)
+        public Novelty getNoveltyById(int id)
         {
             return _dbContext.News.SingleOrDefault(n => n.NoveltyId == id);
         }

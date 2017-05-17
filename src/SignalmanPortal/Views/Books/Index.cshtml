@@ -1,27 +1,15 @@
-@model SignalmanPortal.Models.LearningViewModels.ArticlesViewModel
+@model IEnumerable<SignalmanPortal.Models.Books.Book>
 
-@{
-    ViewData["Title"] = "View";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-
-<form asp-action="View">
-    <div class="form-horizontal">
-        <h4>ArticlesViewModel</h4>
-        <hr />
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
-            </div>
+<hr />
+@foreach (var item in Model)
+{
+    <div style="height:120px; float:left; margin:10px 0; padding:0;" class="col-md-4">
+        <div style="background-color:#f7f7f7; margin:0 10px; height:inherit; position:inherit; border:1px solid grey" class="novelty-inner">
+            <a asp-area="" asp-controller="Books" asp-action="Details" asp-route-id="@item.BookId" style="display:block; width:inherit; height: inherit;" class="novelty-inner-link">
+                <p class="news-title">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </p>
+            </a>
         </div>
     </div>
-</form>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

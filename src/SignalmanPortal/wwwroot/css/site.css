@@ -162,3 +162,8 @@ pre {
     transform: translate(-50%, -50%);
     width: 100%;
 }
+
+.book-image {
+    width: 200px;
+    height: 200px;
+}
