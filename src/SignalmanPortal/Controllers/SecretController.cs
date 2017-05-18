@@ -43,7 +43,7 @@ namespace SignalmanPortal.Controllers
                 }
             }
 
-            return RedirectToAction("Index", "Admin", null);
+            return RedirectToAction("Index", "Home", null);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<SignalmanPortal.Models.News.Novelty>
+﻿@model IEnumerable<Novelty>
 <h2>Администрирование новостей</h2>
 <p>
     <a asp-action="NoveltyCreate">Создать новость</a>
@@ -6,13 +6,13 @@
 @foreach (var item in Model)
 {
     <div class="row">
-        <div class="col-md-4 novelty-edit-field">
+        <div class="col-md-4 admin-edit-field">
             @Html.DisplayFor(modelItem => item.Title)
         </div>
-        <div class="col-md-4 novelty-edit-field">
+        <div class="col-md-4 admin-edit-field">
             @Html.DisplayFor(modelItem => item.Description)
         </div>
-        <div class="col-md-2 novelty-edit-field">
+        <div class="col-md-2 admin-edit-field">
             @Html.DisplayFor(modelItem => item.DateAdded)
         </div>
         <div class="col-md-2">

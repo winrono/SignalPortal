@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet-SignalmanPortal-b547471b-19d1-4585-a36a-2274c1a827ff",
 
   "dependencies": {
@@ -45,7 +45,8 @@
       "version": "1.0.0-preview2-final",
       "type": "build"
     },
-    "Microsoft.AspNetCore.Identity": "1.0.0"
+    "Microsoft.AspNetCore.Identity": "1.0.0",
+    "System.ComponentModel.Annotations": "4.1.0"
   },
 
   "tools": {

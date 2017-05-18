@@ -99,6 +99,7 @@ namespace SignalmanPortal
             });
 
             RolesInitializer.Init(app);
+
         }
     }
 }

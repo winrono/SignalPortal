@@ -5,12 +5,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using SignalmanPortal.Data;
 
-namespace SignalmanPortal.Data.Migrations
+namespace SignalmanPortal.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170518165406_initial")]
+    partial class initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.1")
@@ -177,6 +178,8 @@ namespace SignalmanPortal.Data.Migrations
                     b.Property<int>("BookId")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<int>("CategoryId");
+
                     b.Property<string>("Description");
 
                     b.Property<string>("ImageExtension");
@@ -187,7 +190,21 @@ namespace SignalmanPortal.Data.Migrations
 
                     b.HasKey("BookId");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("SignalmanPortal.Models.Books.BookCategory", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("CategoriesOfBooks");
                 });
 
             modelBuilder.Entity("SignalmanPortal.Models.News.Novelty", b =>
@@ -240,6 +257,14 @@ namespace SignalmanPortal.Data.Migrations
                     b.HasOne("SignalmanPortal.Models.ApplicationUser")
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("SignalmanPortal.Models.Books.Book", b =>
+                {
+                    b.HasOne("SignalmanPortal.Models.Books.BookCategory", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
         }

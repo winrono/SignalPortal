@@ -1,15 +1,29 @@
-@model IEnumerable<SignalmanPortal.Models.Books.Book>
+﻿@model IEnumerable<BookCategory>
 
-<hr />
-@foreach (var item in Model)
-{
-    <div style="height:120px; float:left; margin:10px 0; padding:0;" class="col-md-4">
-        <div style="background-color:#f7f7f7; margin:0 10px; height:inherit; position:inherit; border:1px solid grey" class="novelty-inner">
-            <a asp-area="" asp-controller="Books" asp-action="Details" asp-route-id="@item.BookId" style="display:block; width:inherit; height: inherit;" class="novelty-inner-link">
-                <p class="news-title">
-                    @Html.DisplayFor(modelItem => item.Name)
-                </p>
-            </a>
-        </div>
-    </div>
+<div class="col-md-3">
+    <ul id="booksCategories" class="list-group">
+        <li class="list-group-item active">Все</li>
+        @foreach (var category in Model)
+        {
+            <li class="list-group-item">@category.Name</li>
+        }
+    </ul>
+</div>
+<div id="booksListView" class="col-md-9">
+    @await Component.InvokeAsync("BooksList")
+</div>
+
+@section Scripts{
+    <script>
+
+        var listGroupItemsSelect = "#booksCategories .list-group-item";
+
+        $(listGroupItemsSelect).click(function () {
+            $(listGroupItemsSelect).removeClass('active');
+            $(this).addClass('active');
+            $.get("/Books/GetUpdatedViewComponent?categoryName=" + this.textContent, function (data) {
+                $("#booksListView").html(data);
+            })
+        });
+    </script>
 }

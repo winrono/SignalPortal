@@ -107,15 +107,31 @@ namespace SignalmanPortal.Controllers
         [HttpGet]
         public IActionResult BookCreate()
         {
+            var viewModel = new BookCreateViewModel();
+            viewModel.Categories = _booksRepository.BookCategories;
+
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        public IActionResult BookCreate(BookCreateViewModel viewModel, IFormFile uploadedFile)
+        {
+            _booksRepository.InsertBook(viewModel.Book, uploadedFile);
+
+            return RedirectToAction("Books");
+        }
+
+        [HttpGet]
+        public IActionResult BookCategoriesManagement()
+        {
             return View();
         }
 
         [HttpPost]
-        public IActionResult BookCreate(Book model, IFormFile uploadedFile)
+        public IActionResult CreateBookCategory(string name)
         {
-            _booksRepository.InsertBook(model, uploadedFile);
-
-            return RedirectToAction("Books");
+            _booksRepository.CreateCategory(name);
+            return View("BookCategoriesManagement");
         }
 
         public bool BookDelete(int id)

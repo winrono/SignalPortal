@@ -16,12 +16,17 @@ namespace SignalmanPortal.Controllers
         }
         public IActionResult Index()
         {
-            return View(_booksRepository.Books);
+            return View(_booksRepository.BookCategories);
         }
 
         public IActionResult Details(int id)
         {
             return View(_booksRepository.GetBookById(id));
+        }
+
+        public IActionResult GetUpdatedViewComponent(string categoryName)
+        {
+            return ViewComponent("BooksList", new { categoryName = categoryName });
         }
     }
 }

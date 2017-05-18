@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using SignalmanPortal.Data;
 using System;
 using System.Collections.Generic;
@@ -23,7 +24,15 @@ namespace SignalmanPortal.Models.Books
         {
             get
             {
-                return _dbContext.Books;
+                return _dbContext.Books.Include(x => x.Category);
+            }
+        }
+
+        public IEnumerable<BookCategory> BookCategories
+        {
+            get
+            {
+                return _dbContext.CategoriesOfBooks;
             }
         }
 
@@ -68,7 +77,7 @@ namespace SignalmanPortal.Models.Books
 
             _dbContext.SaveChanges();
 
-            string bookPath = _hostingEnvironment.WebRootPath + "\\images\\books\\" + book.BookId + "." + fileExtension;
+            string bookPath = _hostingEnvironment.WebRootPath + "\\images\\books\\" + book.BookId + fileExtension;
 
             Directory.CreateDirectory(Path.GetDirectoryName(bookPath));
 
@@ -76,6 +85,13 @@ namespace SignalmanPortal.Models.Books
             {
                 uploadedFile.CopyTo(fileStream);
             }
+        }
+
+        public void CreateCategory(string name)
+        {
+            _dbContext.CategoriesOfBooks.Add(new BookCategory() { Name = name });
+
+            _dbContext.SaveChanges();
         }
 
         public Book GetBookById(int id)

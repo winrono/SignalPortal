@@ -2,7 +2,6 @@
 
 <form asp-action="BookEdit">
     <div class="form-horizontal">
-        <hr />
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         @Html.HiddenFor(model => model.BookId)
         <div class="form-group">
@@ -15,7 +14,7 @@
         <div class="form-group">
             <label class="col-md-2 control-label">Обложка книги</label>
             <div class="col-md-10">
-                <img class="book-image" src="~/images/books/@(Model.BookId + "." + @Model.ImageExtension)" />
+                <img class="book-image" src="~/images/books/@(Model.BookId + @Model.ImageExtension)" />
             </div>
         </div>
         <div class="form-group">

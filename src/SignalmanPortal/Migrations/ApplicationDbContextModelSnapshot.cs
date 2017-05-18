@@ -5,13 +5,12 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using SignalmanPortal.Data;
 
-namespace SignalmanPortal.Data.Migrations
+namespace SignalmanPortal.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20170508133651_News")]
-    partial class News
+    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.1")
@@ -173,10 +172,46 @@ namespace SignalmanPortal.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("SignalmanPortal.Models.Novelty", b =>
+            modelBuilder.Entity("SignalmanPortal.Models.Books.Book", b =>
+                {
+                    b.Property<int>("BookId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("CategoryId");
+
+                    b.Property<string>("Description");
+
+                    b.Property<string>("ImageExtension");
+
+                    b.Property<string>("Name");
+
+                    b.Property<decimal>("Price");
+
+                    b.HasKey("BookId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("SignalmanPortal.Models.Books.BookCategory", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("CategoriesOfBooks");
+                });
+
+            modelBuilder.Entity("SignalmanPortal.Models.News.Novelty", b =>
                 {
                     b.Property<int>("NoveltyId")
                         .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("DateAdded");
 
                     b.Property<string>("Description");
 
@@ -221,6 +256,14 @@ namespace SignalmanPortal.Data.Migrations
                     b.HasOne("SignalmanPortal.Models.ApplicationUser")
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("SignalmanPortal.Models.Books.Book", b =>
+                {
+                    b.HasOne("SignalmanPortal.Models.Books.BookCategory", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
         }
