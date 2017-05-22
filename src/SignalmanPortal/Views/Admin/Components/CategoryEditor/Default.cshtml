@@ -1,0 +1,7 @@
+﻿@model BookCategory
+
+@Html.HiddenFor(model => model.CategoryId)
+<input id="categoryInput" asp-for="@Model.Name" type="text" />
+<a id="categoryCreateBtn" class="btn btn-default btn-sm" asp-action="CreateBookCategory" asp-route-category="@Model">
+    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Добавить категорию
+</a>

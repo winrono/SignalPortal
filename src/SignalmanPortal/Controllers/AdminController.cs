@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using SignalmanPortal.Models.Books;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
+using System.Collections;
 
 namespace SignalmanPortal.Controllers
 {
@@ -122,16 +123,41 @@ namespace SignalmanPortal.Controllers
         }
 
         [HttpGet]
-        public IActionResult BookCategoriesManagement()
+        public IActionResult BookCategories()
         {
+
             return View();
         }
 
+        public bool DeleteBookCategory(int id)
+        {
+            return _booksRepository.DeleteBookCategory(id);
+        }
+
         [HttpPost]
-        public IActionResult CreateBookCategory(string name)
+        public IActionResult CreateBookCategory([FromBody] string name)
         {
             _booksRepository.CreateCategory(name);
-            return View("BookCategoriesManagement");
+
+            _dbContext.SaveChanges();
+
+            return View("BookCategories");
+        }
+
+        [HttpPost]
+        public IActionResult SaveCategories([FromBody] IEnumerable<BookCategoryViewModel> categories)
+        {
+            categories = categories.Where(x => x.IsRemoved == false);
+            _booksRepository.SaveCategories(categories as IEnumerable<BookCategory>);
+
+            _dbContext.SaveChanges();
+
+            return RedirectToAction("BookCategories");
+        }
+
+        public IActionResult GetUpdatedCategoriesList(string category)
+        {
+            return ViewComponent("CategoriesList", new { category = category });
         }
 
         public bool BookDelete(int id)

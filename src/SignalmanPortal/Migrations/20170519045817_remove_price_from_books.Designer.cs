@@ -8,9 +8,10 @@ using SignalmanPortal.Data;
 namespace SignalmanPortal.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170519045817_remove_price_from_books")]
+    partial class remove_price_from_books
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.1")
@@ -177,7 +178,7 @@ namespace SignalmanPortal.Migrations
                     b.Property<int>("BookId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int?>("CategoryId");
+                    b.Property<int>("CategoryId");
 
                     b.Property<string>("Description");
 
@@ -261,7 +262,8 @@ namespace SignalmanPortal.Migrations
                 {
                     b.HasOne("SignalmanPortal.Models.Books.BookCategory", "Category")
                         .WithMany()
-                        .HasForeignKey("CategoryId");
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
         }
     }

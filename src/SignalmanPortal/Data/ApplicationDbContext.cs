@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using SignalmanPortal.Models;
 using SignalmanPortal.Models.News;
 using SignalmanPortal.Models.Books;
+using System.Linq;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace SignalmanPortal.Data
 {
@@ -15,6 +17,7 @@ namespace SignalmanPortal.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+
             base.OnModelCreating(builder);
         }
 

@@ -1,0 +1,29 @@
+﻿<form asp-action="SaveCategories" enctype="multipart/form-data">
+    <div class="form-horizontal">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div id="categoriesList">
+            @await Component.InvokeAsync("CategoriesList")
+        </div>
+        @await Component.InvokeAsync("CategoryEditor")
+
+        @section Scripts{
+            <script>
+
+                $("#categoryCreateBtn").click(function (e) {
+
+                    e.preventDefault();
+
+                    var val = $("#categoryInput").val();
+
+                    $.get("/Admin/GetUpdatedCategoriesList?category=" + val, function (data) {
+                        $("#categoriesList").html(data);
+                    })
+                });
+            </script>
+        }
+        <div>
+            <button type="submit">Сохранить</button>
+        </div>
+        <hr />
+        </div>
+</form>

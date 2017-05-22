@@ -12,8 +12,7 @@
         $(this).tooltip('enable');
     });
 
-    $('[deleteNoveltyLink], [deleteBookLink]').click(function (e) {
-
+    $('body').on('click', '[deleteNoveltyLink], [deleteBookLink], [deleteBookCategoryLink]', function (e) {
         var that = this;
 
         e.preventDefault();
@@ -22,14 +21,19 @@
             url: $(this).attr("href"),
             success: function (isDeleted) {
                 if (isDeleted) {
-                    $(that.closest('.row')).fadeOut();
+                    var parentRow = $(that.closest('.row, .tr-row'));
+                    $(that.closest('.row, .tr-row')).fadeOut();
+
+                    var input = parentRow.find('.removed-input');
+                    if (input) {
+                        input.val(true);
+                    }
                 }
                 else {
-                    alert('Новости нет в базе данных. Возможно, кто-то уже удалил её');
+                    alert('Информации нет в базе данных. Возможно, кто-то уже удалил её');
                 }
             }
 
         });
-    })
-
+    });
 });

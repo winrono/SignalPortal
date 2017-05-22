@@ -21,7 +21,7 @@ namespace BethanysPieShop.Components
 
             if(categoryName != null && categoryName != "Все")
             {
-                books = books.Where(x => x.Category.Name == categoryName);
+                books = books.Where(x => x.Category != null && x.Category.Name == categoryName);
             }
 
             return View(books);

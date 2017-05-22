@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -25,6 +27,18 @@
                     <li><a title="Главная" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/home.svg" /></a></li>
                     <li><a title="Обучение" asp-area="" asp-controller="Books" asp-action="Index"><img src="~/images/learning.svg" /></a></li>
                     <li><a title="Новости" asp-area="" asp-controller="News" asp-action="Index"><img src="~/images/news.svg" /></a></li>
+                    @{if (User.IsInRole("Administrator"))
+                        {
+                            <li id="adminList" title="Администрирование" class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown"><img src="~/images/admin.svg" /></a>
+                                <ul class="dropdown-menu dropdown-menu-left">
+                                    <li><a asp-controller="Admin" asp-action="News">Управление новостями</a></li>
+                                    <li><a asp-controller="Admin" asp-action="Books">Управление обучающими материалами</a></li>
+                                    <li><a asp-controller="Admin" asp-action="BookCategories">Управление категориями обучающих материалов</a></li>
+                                </ul>
+                            </li>
+                        }
+                    }
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")
             </div>

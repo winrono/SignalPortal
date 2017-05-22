@@ -15,10 +15,8 @@ namespace SignalmanPortal.Models.Books
         public string ImageExtension { get; set; }
         [Display(Name = "Описание")]
         public string Description { get; set; }
-        [Display(Name = "Стоимость")]
-        public decimal Price { get; set; }
 
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
         
         public virtual BookCategory Category { get; set; }
     }

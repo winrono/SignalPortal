@@ -61,7 +61,6 @@ namespace SignalmanPortal.Models.Books
                 dbBook.Description = book.Description;
                 //dbBook.ImageExtension = book.ImageExtension;
                 dbBook.Name = book.Name;
-                dbBook.Price = book.Price;
             }
 
             _dbContext.SaveChanges();
@@ -89,7 +88,7 @@ namespace SignalmanPortal.Models.Books
 
         public void CreateCategory(string name)
         {
-            _dbContext.CategoriesOfBooks.Add(new BookCategory() { Name = name });
+            _dbContext.CategoriesOfBooks.Add(new BookCategory() { Name = name});
 
             _dbContext.SaveChanges();
         }
@@ -98,5 +97,49 @@ namespace SignalmanPortal.Models.Books
         {
             return _dbContext.Books.SingleOrDefault(x => x.BookId == id);
         }
+
+        public bool DeleteBookCategory(int id)
+        {
+            var dbBookCategory = GetBookCategoryById(id);
+
+            if (dbBookCategory != null)
+            {
+                _dbContext.Remove(dbBookCategory);
+
+                _dbContext.SaveChanges();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool SaveCategories(IEnumerable<BookCategory> categories)
+        {
+            foreach(var category in categories)
+            {
+                var dbCategory = _dbContext.CategoriesOfBooks.SingleOrDefault(x => x.CategoryId == category.CategoryId);
+                if (dbCategory != null)
+                {
+                    dbCategory.Name = category.Name;
+                }
+                else
+                {
+                    _dbContext.CategoriesOfBooks.Add(category);
+                }
+            }
+
+            _dbContext.SaveChanges();
+
+            return true;
+        }
+
+        private BookCategory GetBookCategoryById(int id)
+        {
+            return _dbContext.CategoriesOfBooks.SingleOrDefault(x => x.CategoryId == id);
+        }
+
+
     }
 }
