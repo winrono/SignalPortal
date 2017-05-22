@@ -1,29 +1,41 @@
-﻿<form asp-action="SaveCategories" enctype="multipart/form-data">
-    <div class="form-horizontal">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div id="categoriesList">
+﻿<div ng-controller="bookCategoriesController">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Категории
+                </th>
+                <th>Удалить?</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr ng-repeat="category in categories" class="tr-row">
+                    <td>
+                        <input ng-model="category.categoryId" hidden />
+                        <input ng-model="category.isRemoved" hidden />
+                        <input ng-model="category.name"/>
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" ng-model="category.isRemoved" />
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+    <input id="categoryInput" ng-model="newCategory" />
+    <button id="categoryCreateBtn" class="btn btn-default btn-sm" ng-click="addCategory(newCategory)">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Добавить категорию
+    </button>
+    <hr />
+    @*<div id="categoriesList">
             @await Component.InvokeAsync("CategoriesList")
         </div>
-        @await Component.InvokeAsync("CategoryEditor")
+        @await Component.InvokeAsync("CategoryEditor")*@
 
-        @section Scripts{
-            <script>
+    @section Scripts{
+        <script src="~/js/bookCategoriesController.js"></script>
+    }
+    <div>
+        <button ng-click="saveCategories()">Сохранить</button>
+    </div>
+</div>
 
-                $("#categoryCreateBtn").click(function (e) {
-
-                    e.preventDefault();
-
-                    var val = $("#categoryInput").val();
-
-                    $.get("/Admin/GetUpdatedCategoriesList?category=" + val, function (data) {
-                        $("#categoriesList").html(data);
-                    })
-                });
-            </script>
-        }
-        <div>
-            <button type="submit">Сохранить</button>
-        </div>
-        <hr />
-        </div>
-</form>

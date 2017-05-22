@@ -126,7 +126,9 @@ namespace SignalmanPortal.Models.Books
                 }
                 else
                 {
-                    _dbContext.CategoriesOfBooks.Add(category);
+                    var item = new BookCategory();
+                    item.Name = "Secret super test name";
+                    _dbContext.CategoriesOfBooks.Add(item);
                 }
             }
 

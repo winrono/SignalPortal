@@ -125,8 +125,18 @@ namespace SignalmanPortal.Controllers
         [HttpGet]
         public IActionResult BookCategories()
         {
-
             return View();
+        }
+
+        public IActionResult GetBookCategories()
+        {
+            List<BookCategoryViewModel> categories = new List<BookCategoryViewModel>();
+            foreach (var bookCategory in _booksRepository.BookCategories)
+            {
+                categories.Add(new BookCategoryViewModel(bookCategory));
+            }
+
+            return new JsonResult(categories);
         }
 
         public bool DeleteBookCategory(int id)
