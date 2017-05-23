@@ -18,7 +18,7 @@ namespace SignalmanPortal.Controllers
         }
         public IActionResult Index()
         {
-            IEnumerable<Novelty> news = _newsRepository.News;
+            IEnumerable<Novelty> news = _newsRepository.News.OrderByDescending(x => x.DateAdded);
             return View(news);
         }
 

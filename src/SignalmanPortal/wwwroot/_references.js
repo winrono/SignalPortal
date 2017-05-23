@@ -1,4 +1,5 @@
 ﻿/// <autosync enabled="true" />
+/// <reference path="data/books/5.js" />
 /// <reference path="js/app.module.js" />
 /// <reference path="js/bookcategoriescontroller.js" />
 /// <reference path="js/site.js" />

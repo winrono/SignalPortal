@@ -16,6 +16,8 @@
 @section Scripts{
     <script>
 
+        var page = 0;
+
         var listGroupItemsSelect = "#booksCategories .list-group-item";
 
         $(listGroupItemsSelect).click(function () {
@@ -23,7 +25,24 @@
             $(this).addClass('active');
             $.get("/Books/GetUpdatedViewComponent?categoryName=" + this.textContent, function (data) {
                 $("#booksListView").html(data);
+                page = 0;
             })
+        });
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() == $(document).height() - $(window).height()) {
+                console.log('reached bottom of the page');
+            }
+        });
+
+        $(window).bind('mousewheel DOMMouseScroll', function (event) {
+            if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+            }
+            else {
+                if ($(window).scrollTop() == $(document).height() - $(window).height()) {
+                    console.log('reached bottom of the page from mousewheel');
+                }
+            }
         });
     </script>
 }

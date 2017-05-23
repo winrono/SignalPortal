@@ -24,6 +24,8 @@ namespace BethanysPieShop.Components
                 books = books.Where(x => x.Category != null && x.Category.Name == categoryName);
             }
 
+            books = books.OrderByDescending(x => x.BookId);
+
             return View(books);
         }
     }
