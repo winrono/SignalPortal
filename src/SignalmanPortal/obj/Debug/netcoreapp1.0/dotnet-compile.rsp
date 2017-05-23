@@ -273,8 +273,8 @@ D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\AccountVi
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\Books\Book.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\Books\BookCategory.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\Books\BookCategoryViewModel.cs
-D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\Books\BookCreateViewModel.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\Books\BooksRepository.cs
+D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\Books\BookViewModel.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\Books\IBooksRepository.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\ManageViewModels\AddPhoneNumberViewModel.cs
 D:\Development\pet projects\SignalmanPortal\src\SignalmanPortal\Models\ManageViewModels\ChangePasswordViewModel.cs

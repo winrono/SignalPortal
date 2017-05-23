@@ -1,27 +1,34 @@
-﻿@model SignalmanPortal.Models.Books.Book
+﻿@model BookViewModel
 
 <form asp-action="BookEdit">
     <div class="form-horizontal">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        @Html.HiddenFor(model => model.BookId)
+        @Html.HiddenFor(model => model.Book.BookId)
         <div class="form-group">
-            <label asp-for="Name" class="col-md-2 control-label"></label>
+            <label asp-for="Book.Name" class="col-md-2 control-label"></label>
             <div class="col-md-10">
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger" />
+                <input asp-for="Book.Name" class="form-control" />
+                <span asp-validation-for="Book.Name" class="text-danger" />
             </div>
         </div>
         <div class="form-group">
             <label class="col-md-2 control-label">Обложка книги</label>
             <div class="col-md-10">
-                <img class="book-image" src="~/images/books/@(Model.BookId + @Model.ImageExtension)" />
+                <img class="book-image" src="~/images/books/@(Model.Book.BookId + @Model.Book.ImageExtension)" />
             </div>
         </div>
         <div class="form-group">
-            <label asp-for="Description" class="col-md-2 control-label"></label>
+            <label asp-for="Book.Description" class="col-md-2 control-label"></label>
             <div class="col-md-10">
-                <textarea asp-for="Description" class="form-control"></textarea>
-                <span asp-validation-for="Description" class="text-danger" />
+                <textarea asp-for="Book.Description" class="form-control"></textarea>
+                <span asp-validation-for="Book.Description" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">Категория</label>
+            <div class="col-md-10">
+                <select asp-for="Book.CategoryId" asp-items="@(new SelectList(Model.Categories, "CategoryId", "Name"))" class="form-control"></select>
+                <span asp-validation-for="Book.Category" class="text-danger" />
             </div>
         </div>
         <div class="form-group">

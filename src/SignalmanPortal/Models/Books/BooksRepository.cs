@@ -62,6 +62,7 @@ namespace SignalmanPortal.Models.Books
             if (dbBook != null)
             {
                 dbBook.Description = book.Description;
+                dbBook.CategoryId = book.CategoryId;
                 //dbBook.ImageExtension = book.ImageExtension;
                 dbBook.Name = book.Name;
             }

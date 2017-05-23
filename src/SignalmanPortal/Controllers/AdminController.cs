@@ -88,11 +88,13 @@ namespace SignalmanPortal.Controllers
         [HttpGet]
         public IActionResult BookEdit(int id)
         {
-            var book = _booksRepository.Books.SingleOrDefault(n => n.BookId == id);
+            var vm = new BookViewModel();
+            vm.Categories = _booksRepository.BookCategories;
+            vm.Book = _booksRepository.Books.SingleOrDefault(n => n.BookId == id);
 
-            if (book != null)
+            if (vm.Book != null)
             {
-                return View(book);
+                return View(vm);
             }
             else
             {
@@ -101,9 +103,9 @@ namespace SignalmanPortal.Controllers
         }
 
         [HttpPost]
-        public IActionResult BookEdit(Book model)
+        public IActionResult BookEdit(BookViewModel model)
         {
-            _booksRepository.EditBook(model);
+            _booksRepository.EditBook(model.Book);
 
             return RedirectToAction("Books");
         }
@@ -111,14 +113,14 @@ namespace SignalmanPortal.Controllers
         [HttpGet]
         public IActionResult BookCreate()
         {
-            var viewModel = new BookCreateViewModel();
+            var viewModel = new BookViewModel();
             viewModel.Categories = _booksRepository.BookCategories;
 
             return View(viewModel);
         }
 
         [HttpPost]
-        public IActionResult BookCreate(BookCreateViewModel viewModel, IFormFile uploadedImage, IFormFile uploadedFile)
+        public IActionResult BookCreate(BookViewModel viewModel, IFormFile uploadedImage, IFormFile uploadedFile)
         {
             _booksRepository.InsertBook(viewModel.Book, uploadedImage, uploadedFile);
 
