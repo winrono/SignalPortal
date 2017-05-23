@@ -1,5 +1,5 @@
-﻿<div ng-controller="bookCategoriesController">
-    <table class="table">
+﻿<div id="bookCategories" class="hidden col-md-8 col-md-offset-2" ng-controller="bookCategoriesController">
+    <table id="categoriesTable" class="table">
         <thead>
             <tr>
                 <th>
@@ -9,33 +9,41 @@
             </tr>
         </thead>
         <tbody>
-                <tr ng-repeat="category in categories" class="tr-row">
-                    <td>
-                        <input ng-model="category.categoryId" hidden />
-                        <input ng-model="category.isRemoved" hidden />
-                        <input ng-model="category.name"/>
-                    </td>
-                    <td>
-                        <input class="checkbox" type="checkbox" ng-model="category.isRemoved" />
-                    </td>
-                </tr>
+            <tr ng-repeat="category in categories" class="tr-row">
+                <td>
+                    <input ng-model="category.categoryId" hidden />
+                    <input ng-model="category.isRemoved" hidden />
+                    <input class="form-control" ng-model="category.name" />
+                </td>
+                <td class="text-center checkbox">
+                    <input type="checkbox" ng-model="category.isRemoved" />
+                    <label></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="col-md-8 row">
+                        <input class="form-control col-md-6" id="categoryInput" ng-model="newCategory" />
+                    </div>
+                    <div class="col-md-4">
+                        <button id="categoryCreateBtn" class="btn btn-primary btn-md" ng-click="addCategory(newCategory)">
+                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Добавить категорию
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="text-center">
+                    <button ng-click="saveCategories()" class="btn btn-success btn-md">
+                        <span class="glyphicon glyphicon-floppy-saved" aria-hidden="true"></span>Сохранить изменения
+                    </button>
+                </td>
+            </tr>
         </tbody>
     </table>
-    <input id="categoryInput" ng-model="newCategory" />
-    <button id="categoryCreateBtn" class="btn btn-default btn-sm" ng-click="addCategory(newCategory)">
-        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Добавить категорию
-    </button>
-    <hr />
-    @*<div id="categoriesList">
-            @await Component.InvokeAsync("CategoriesList")
-        </div>
-        @await Component.InvokeAsync("CategoryEditor")*@
-
-    @section Scripts{
-        <script src="~/js/bookCategoriesController.js"></script>
-    }
-    <div>
-        <button ng-click="saveCategories()">Сохранить</button>
-    </div>
 </div>
+
+@section Scripts{
+    <script src="~/js/bookCategoriesController.js"></script>
+}
 

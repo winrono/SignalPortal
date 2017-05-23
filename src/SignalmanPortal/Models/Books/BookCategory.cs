@@ -12,5 +12,7 @@ namespace SignalmanPortal.Models.Books
         public int CategoryId { get; set; }
         [Display(Name = "Название категории")]
         public string Name { get; set; }
+
+        public DateTime? DeletedOn { get; set; }
     }
 }

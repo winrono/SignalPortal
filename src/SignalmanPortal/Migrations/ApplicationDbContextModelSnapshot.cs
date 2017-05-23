@@ -181,6 +181,8 @@ namespace SignalmanPortal.Migrations
 
                     b.Property<string>("Description");
 
+                    b.Property<string>("FileExtension");
+
                     b.Property<string>("ImageExtension");
 
                     b.Property<string>("Name");
@@ -196,6 +198,8 @@ namespace SignalmanPortal.Migrations
                 {
                     b.Property<int>("CategoryId")
                         .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime?>("DeletedOn");
 
                     b.Property<string>("Name");
 

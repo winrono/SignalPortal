@@ -16,6 +16,7 @@ using SignalmanPortal.Services;
 using SignalmanPortal.Initialization;
 using SignalmanPortal.Models.News;
 using SignalmanPortal.Models.Books;
+using AutoMapper;
 
 namespace SignalmanPortal
 {
@@ -59,6 +60,7 @@ namespace SignalmanPortal
             services.AddTransient<ApplicationUser>();
 
             services.AddMvc();
+            services.AddAutoMapper();
 
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();

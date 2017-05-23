@@ -46,7 +46,9 @@
       "type": "build"
     },
     "Microsoft.AspNetCore.Identity": "1.0.0",
-    "System.ComponentModel.Annotations": "4.1.0"
+    "System.ComponentModel.Annotations": "4.1.0",
+    "AutoMapper": "6.0.2",
+    "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.1"
   },
 
   "tools": {

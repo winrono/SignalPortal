@@ -7,16 +7,6 @@ namespace SignalmanPortal.Models.Books
 {
     public class BookCategoryViewModel : BookCategory
     {
-        public BookCategoryViewModel()
-        {
-
-        }
-        public BookCategoryViewModel(BookCategory category)
-        {
-            CategoryId = category.CategoryId;
-            Name = category.Name;
-        }
-
         public bool IsRemoved { get; set; }
     }
 }

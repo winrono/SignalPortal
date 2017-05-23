@@ -14,10 +14,12 @@ namespace SignalmanPortal.Models.Books
         public string Name { get; set; }
         public string ImageExtension { get; set; }
         [Display(Name = "Описание")]
+
+        public string FileExtension { get; set; }
         public string Description { get; set; }
 
         public int? CategoryId { get; set; }
-        
+
         public virtual BookCategory Category { get; set; }
     }
 }

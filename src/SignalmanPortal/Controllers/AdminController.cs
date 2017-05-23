@@ -10,6 +10,7 @@ using SignalmanPortal.Models.Books;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
 using System.Collections;
+using AutoMapper;
 
 namespace SignalmanPortal.Controllers
 {
@@ -20,11 +21,13 @@ namespace SignalmanPortal.Controllers
         private readonly IBooksRepository _booksRepository;
         private readonly ApplicationDbContext _dbContext;
         private IHostingEnvironment _hostingEnvironment;
-        public AdminController(INewsRepository newsRepository, IBooksRepository booksRepository, ApplicationDbContext dbContext)
+        private IMapper _mapper;
+        public AdminController(INewsRepository newsRepository, IBooksRepository booksRepository, ApplicationDbContext dbContext, IMapper mapper)
         {
             _newsRepository = newsRepository;
             _booksRepository = booksRepository;
             _dbContext = dbContext;
+            _mapper = mapper;
         }
 
         public IActionResult News()
@@ -115,9 +118,9 @@ namespace SignalmanPortal.Controllers
         }
 
         [HttpPost]
-        public IActionResult BookCreate(BookCreateViewModel viewModel, IFormFile uploadedFile)
+        public IActionResult BookCreate(BookCreateViewModel viewModel, IFormFile uploadedImage, IFormFile uploadedFile)
         {
-            _booksRepository.InsertBook(viewModel.Book, uploadedFile);
+            _booksRepository.InsertBook(viewModel.Book, uploadedImage, uploadedFile);
 
             return RedirectToAction("Books");
         }
@@ -133,41 +136,20 @@ namespace SignalmanPortal.Controllers
             List<BookCategoryViewModel> categories = new List<BookCategoryViewModel>();
             foreach (var bookCategory in _booksRepository.BookCategories)
             {
-                categories.Add(new BookCategoryViewModel(bookCategory));
+                categories.Add(_mapper.Map<BookCategory, BookCategoryViewModel>(bookCategory));
             }
 
             return new JsonResult(categories);
         }
 
-        public bool DeleteBookCategory(int id)
-        {
-            return _booksRepository.DeleteBookCategory(id);
-        }
-
-        [HttpPost]
-        public IActionResult CreateBookCategory([FromBody] string name)
-        {
-            _booksRepository.CreateCategory(name);
-
-            _dbContext.SaveChanges();
-
-            return View("BookCategories");
-        }
-
         [HttpPost]
         public IActionResult SaveCategories([FromBody] IEnumerable<BookCategoryViewModel> categories)
         {
-            categories = categories.Where(x => x.IsRemoved == false);
-            _booksRepository.SaveCategories(categories as IEnumerable<BookCategory>);
+            _booksRepository.SaveCategories(categories);
 
             _dbContext.SaveChanges();
 
             return RedirectToAction("BookCategories");
-        }
-
-        public IActionResult GetUpdatedCategoriesList(string category)
-        {
-            return ViewComponent("CategoriesList", new { category = category });
         }
 
         public bool BookDelete(int id)

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using SignalmanPortal.Data;
@@ -14,10 +15,12 @@ namespace SignalmanPortal.Models.Books
     {
         private ApplicationDbContext _dbContext;
         private IHostingEnvironment _hostingEnvironment;
-        public BooksRepository(ApplicationDbContext dbContext, IHostingEnvironment hostingEnvironment)
+        private IMapper _mapper;
+        public BooksRepository(ApplicationDbContext dbContext, IHostingEnvironment hostingEnvironment, IMapper mapper)
         {
             _dbContext = dbContext;
             _hostingEnvironment = hostingEnvironment;
+            _mapper = mapper;
         }
 
         public IEnumerable<Book> Books
@@ -32,7 +35,7 @@ namespace SignalmanPortal.Models.Books
         {
             get
             {
-                return _dbContext.CategoriesOfBooks;
+                return _dbContext.CategoriesOfBooks.Where(x => x.DeletedOn == null);
             }
         }
 
@@ -66,29 +69,30 @@ namespace SignalmanPortal.Models.Books
             _dbContext.SaveChanges();
         }
 
-        public void InsertBook(Book book, IFormFile uploadedFile)
+        public void InsertBook(Book book, IFormFile uploadedImage, IFormFile uploadedFile)
         {
+            var imageExtension = Path.GetExtension(uploadedImage.FileName);
             var fileExtension = Path.GetExtension(uploadedFile.FileName);
 
-            book.ImageExtension = fileExtension;
+            book.ImageExtension = imageExtension;
+            book.FileExtension = fileExtension;
 
             _dbContext.Books.Add(book);
 
             _dbContext.SaveChanges();
 
-            string bookPath = _hostingEnvironment.WebRootPath + "\\images\\books\\" + book.BookId + fileExtension;
+            string bookPath = _hostingEnvironment.WebRootPath + "\\images\\books\\" + book.BookId + imageExtension;
 
-            Directory.CreateDirectory(Path.GetDirectoryName(bookPath));
+            SaveFile(bookPath, uploadedImage);
 
-            using (var fileStream = new FileStream(bookPath, FileMode.Create))
-            {
-                uploadedFile.CopyTo(fileStream);
-            }
+            string filePath = _hostingEnvironment.WebRootPath + "\\data\\books\\" + book.BookId + fileExtension;
+
+            SaveFile(filePath, uploadedFile);
         }
 
         public void CreateCategory(string name)
         {
-            _dbContext.CategoriesOfBooks.Add(new BookCategory() { Name = name});
+            _dbContext.CategoriesOfBooks.Add(new BookCategory() { Name = name });
 
             _dbContext.SaveChanges();
         }
@@ -115,20 +119,26 @@ namespace SignalmanPortal.Models.Books
             }
         }
 
-        public bool SaveCategories(IEnumerable<BookCategory> categories)
+        public bool SaveCategories(IEnumerable<BookCategoryViewModel> categories)
         {
-            foreach(var category in categories)
+            foreach (var category in categories)
             {
                 var dbCategory = _dbContext.CategoriesOfBooks.SingleOrDefault(x => x.CategoryId == category.CategoryId);
+
                 if (dbCategory != null)
                 {
-                    dbCategory.Name = category.Name;
+                    if (category.IsRemoved == true)
+                    {
+                        dbCategory.DeletedOn = DateTime.Now;
+                    }
+                    else if (dbCategory.Name != category.Name)
+                    {
+                        dbCategory.Name = category.Name;
+                    }
                 }
-                else
+                else if (category.IsRemoved != true)
                 {
-                    var item = new BookCategory();
-                    item.Name = "Secret super test name";
-                    _dbContext.CategoriesOfBooks.Add(item);
+                    _dbContext.CategoriesOfBooks.Add(_mapper.Map<BookCategoryViewModel, BookCategory>(category));
                 }
             }
 
@@ -140,6 +150,16 @@ namespace SignalmanPortal.Models.Books
         private BookCategory GetBookCategoryById(int id)
         {
             return _dbContext.CategoriesOfBooks.SingleOrDefault(x => x.CategoryId == id);
+        }
+
+        private void SaveFile(string path, IFormFile file)
+        {
+            Directory.CreateDirectory(Path.GetDirectoryName(path));
+
+            using (var fileStream = new FileStream(path, FileMode.Create))
+            {
+                file.CopyTo(fileStream);
+            }
         }
 
 

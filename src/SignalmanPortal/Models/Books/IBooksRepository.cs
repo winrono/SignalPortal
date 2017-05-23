@@ -10,7 +10,7 @@ namespace SignalmanPortal.Models.Books
     {
         IEnumerable<Book> Books { get; }
         IEnumerable<BookCategory> BookCategories { get;}
-        void InsertBook(Book book, IFormFile uploadedFile);
+        void InsertBook(Book book, IFormFile uploadedImage, IFormFile uploadedFile);
 
         void EditBook(Book book);
 
@@ -19,7 +19,7 @@ namespace SignalmanPortal.Models.Books
 
         bool DeleteBookCategory(int id);
 
-        bool SaveCategories(IEnumerable<BookCategory> categories);
+        bool SaveCategories(IEnumerable<BookCategoryViewModel> categories);
 
         Book GetBookById(int id);
     }

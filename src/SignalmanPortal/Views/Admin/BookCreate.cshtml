@@ -16,6 +16,16 @@
         <div class="form-group">
             <label class="col-md-2 control-label">Обложка книги</label>
             <div class="col-md-10">
+                <label class="btn btn-primary" for="image-selector">
+                    <input id="image-selector" name="uploadedImage" type="file" class="hidden" onchange="$('#upload-image-info').html(this.files[0].name);">
+                    Выбрать файл
+                </label>
+                <span class='label label-info' id="upload-image-info"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">Файл книги</label>
+            <div class="col-md-10">
                 <label class="btn btn-primary" for="file-selector">
                     <input id="file-selector" name="uploadedFile" type="file" class="hidden" onchange="$('#upload-file-info').html(this.files[0].name);">
                     Выбрать файл
@@ -26,7 +36,7 @@
         <div class="form-group">
             <label asp-for="Book.Description" class="col-md-2 control-label"></label>
             <div class="col-md-10">
-                <textarea asp-for="Book.Description" class="form-control" /></textarea>
+                <textarea asp-for="Book.Description" class="form-control"></textarea>
                 <span asp-validation-for="Book.Description" class="text-danger" />
             </div>
         </div>
