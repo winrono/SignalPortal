@@ -12,7 +12,7 @@ namespace SignalmanPortal.Models.Books
         IEnumerable<BookCategory> BookCategories { get;}
         void InsertBook(Book book, IFormFile uploadedImage, IFormFile uploadedFile);
 
-        void EditBook(Book book);
+        void EditBook(Book book, IFormFile uploadedImage, IFormFile uploadedFile);
 
         bool DeleteBookById(int id);
         void CreateCategory(string name);

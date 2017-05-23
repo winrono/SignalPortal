@@ -103,9 +103,9 @@ namespace SignalmanPortal.Controllers
         }
 
         [HttpPost]
-        public IActionResult BookEdit(BookViewModel model)
+        public IActionResult BookEdit(BookViewModel model, IFormFile uploadedImage, IFormFile uploadedFile)
         {
-            _booksRepository.EditBook(model.Book);
+            _booksRepository.EditBook(model.Book, uploadedImage, uploadedFile);
 
             return RedirectToAction("Books");
         }

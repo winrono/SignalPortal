@@ -56,15 +56,39 @@ namespace SignalmanPortal.Models.Books
             }
         }
 
-        public void EditBook(Book book)
+        public void EditBook(Book book, IFormFile uploadedImage, IFormFile uploadedFile)
         {
+
+            if (uploadedImage != null)
+            {
+
+                var imageExtension = Path.GetExtension(uploadedImage.FileName);
+
+                book.ImageExtension = imageExtension;
+
+                string imagePath = _hostingEnvironment.WebRootPath + "\\images\\books\\" + book.BookId + imageExtension;
+
+                SaveFile(imagePath, uploadedImage);
+
+            }
+            if (uploadedFile != null)
+            {
+                var fileExtension = Path.GetExtension(uploadedFile.FileName);
+                book.FileExtension = fileExtension;
+
+                string filePath = _hostingEnvironment.WebRootPath + "\\data\\books\\" + book.BookId + fileExtension;
+
+                SaveFile(filePath, uploadedFile);
+            }
+
             var dbBook = GetBookById(book.BookId);
             if (dbBook != null)
             {
                 dbBook.Description = book.Description;
                 dbBook.CategoryId = book.CategoryId;
-                //dbBook.ImageExtension = book.ImageExtension;
                 dbBook.Name = book.Name;
+                dbBook.FileExtension = book.FileExtension;
+                dbBook.ImageExtension = book.ImageExtension;
             }
 
             _dbContext.SaveChanges();
