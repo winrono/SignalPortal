@@ -1,0 +1,802 @@
+[2017-04-18 13:48:02.974|3DF8|              |2|INFO ]Command line: "C:\Program Files (x86)\MSOffice\Office16\EXCEL.EXE" 
+[2017-04-18 13:48:03.008|3DF8|OFFICE_LOGGER |2|INFO ]Logs (ERROR, WARNING, INFO) are activated.
+[2017-04-18 13:48:03.082|3DF8|EO_INIT       |2|INFO ][*]OnConnection:
+Thomson Reuters Eikon - Microsoft Office (ProgId: PowerlinkCOMAddIn.COMAddIn, Guid: {7CD13945-5A9B-4A9D-A43E-20D288A78DEA}) is being loaded in ext_cm_Startup mode.
+Microsoft Office 2016 (x86) - Excel: 16.0.4510.1000, MSO: 16.0.4507.1000
+Microsoft Windows NT 10.0.14393.0 (x64)
+Loaded addins:
+	/A "Thomson.Reuters.AFOSpreadsheetFormulas"
+Loaded COM-addins:
+	Thomson Reuters Eikon - Microsoft Office
+	Team Foundation Add-in
+	Visual Studio Tools for Office Design-Time Adaptor for Excel
+en-US, (UTC+03:00) Minsk
+
+[2017-04-18 13:48:03.221|3DF8|EO_INIT       |2|INFO ]Eikon Starter is not activated, EIKONSTARTERACTIVATED environment variable does not exist.
+[2017-04-18 13:48:03.221|3DF8|EO_INIT       |2|INFO ]Eikon Starter in Eikon Box is not activated, EIKONOFFICE_STARTER_IN_EIKONBOX_ACTIVATED does not exist.
+[2017-04-18 13:48:03.221|3DF8|EO_INIT       |2|INFO ]Eikon Starter in Eikon Box Net is not activated, EIKONOFFICE_IN_EIKONBOXNET_ACTIVATED does not exist.
+[2017-04-18 13:48:03.362|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.BOB'
+[2017-04-18 13:48:03.367|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.CHARTS'
+[2017-04-18 13:48:03.369|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.NEWS'
+[2017-04-18 13:48:03.375|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.OFFLINEAPP'
+[2017-04-18 13:48:03.376|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.PROXY'
+[2017-04-18 13:48:03.376|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.QUICKCHARTS'
+[2017-04-18 13:48:03.377|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.QUOTELIST'
+[2017-04-18 13:48:03.379|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.STARTERNET'
+[2017-04-18 13:48:03.379|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.SUPPORTTOOL'
+[2017-04-18 13:48:03.379|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.TAS'
+[2017-04-18 13:48:03.380|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.TSI6'
+[2017-04-18 13:48:03.381|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.WEBAPPS'
+[2017-04-18 13:48:03.382|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.WEBAPPS_DEV'
+[2017-04-18 13:48:03.382|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\THOMSONREUTERS.EIKON.WEBINTEGRATION'
+[2017-04-18 13:48:03.409|3DF8|EO_           |2|INFO ]no current file in folder 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE'
+[2017-04-18 13:48:03.424|3DF8|EO_           |2|INFO ]LoadEikonBinModules 
+[2017-04-18 13:48:34.132|1990|EO_CompositeLo|2|INFO ]Daemon successfully started.
+[2017-04-18 13:48:34.601|3DF8|EO_CompositeLo|2|INFO ]Module was delayed for load because user has no entitlements
+
+
+Properties:
+
+[2017-04-18 13:48:34.635|3DF8|EO_INIT       |2|INFO ][DVAC::Tools::CContextLoader::GetContextInstance]Creation of active context SUCCEEDED using C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\DEAddinCore.manifest
+[2017-04-18 13:48:34.636|3DF8|EO_INIT       |2|INFO ][Initialize]CoCreateInstance of Eikon Office COMAddin {9173B431-B9DF-4590-A378-76CDA85AF58A} succeeded
+[2017-04-18 13:48:34.638|3DF8|EO_CompositeLo|2|INFO ]Module was delayed for load because user has no entitlements
+
+
+Properties:
+
+[2017-04-18 13:48:34.656|3DF8|EO_CompositeLo|2|INFO ]Module was delayed for load because user has no entitlements
+
+
+Properties:
+
+[2017-04-18 13:48:35.092|0534|EO_           |2|INFO ]User state: Undefined
+[2017-04-18 13:48:35.092|0534|EO_           |2|INFO ]Module initialized
+[2017-04-18 13:48:35.204|3DF8|EO_INIT       |2|INFO ]Load PowerLink.xml
+[2017-04-18 13:48:35.208|3DF8|EO_INIT       |2|INFO ]PowerLink.xml successfully loaded
+[2017-04-18 13:48:35.208|3DF8|EO_INIT       |2|INFO ]XDE Config Folder:C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Config
+[2017-04-18 13:48:35.209|3DF8|EO_INIT       |2|INFO ]XDE Program folder:C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..
+[2017-04-18 13:48:35.209|3DF8|EO_INIT       |2|INFO ]XDE Install folder:C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..\..
+[2017-04-18 13:48:35.237|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.238|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.239|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.239|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.240|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.242|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.242|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.243|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.243|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.245|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.245|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.246|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.247|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.248|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.248|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.249|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.250|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.251|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.251|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.252|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.253|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.254|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.255|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.255|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.256|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.257|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.258|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.258|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.259|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.260|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.261|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.261|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.262|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.264|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.264|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.264|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.266|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.267|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.267|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.268|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.269|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.270|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.270|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.271|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.271|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.272|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.273|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.273|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.274|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.275|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.276|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.276|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.277|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.279|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.279|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.280|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.281|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.282|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.282|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.283|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.284|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.284|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.284|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.285|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.285|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.285|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.286|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.287|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.291|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:48:35.304|3DF8|EO_INIT       |2|INFO ]Start loading PowerLink COM addin.
+[2017-04-18 13:48:35.336|3DF8|EO_INIT       |2|INFO ]Initialize XLL Loader
+[2017-04-18 13:48:35.336|3DF8|EO_INIT       |2|INFO ]Load Powerlink
+[2017-04-18 13:48:35.337|3DF8|EO_INIT       |2|INFO ][DVAC::Tools::CContextLoader::GetContextInstance]Creation of active context SUCCEEDED using C:\Program Files (x86)\Thomson Reuters\Eikon\X\Bin\DEAddin.manifest
+[2017-04-18 13:48:35.338|3DF8|EO_INIT       |2|INFO ]Load PowerLink.xml
+[2017-04-18 13:48:35.339|3DF8|EO_INIT       |2|INFO ]PowerLink.xml successfully loaded
+[2017-04-18 13:48:35.339|3DF8|EO_INIT       |2|INFO ]XDE Config Folder:C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Config
+[2017-04-18 13:48:35.340|3DF8|EO_INIT       |2|INFO ]XDE Program folder:C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..
+[2017-04-18 13:48:35.340|3DF8|EO_INIT       |2|INFO ]XDE Install folder:C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..\..
+[2017-04-18 13:48:35.342|3DF8|EO_INIT       |2|INFO ]Update PATH variable
+[2017-04-18 13:48:35.413|3DF8|EO_RIBBON     |2|INFO ]Connect.GetCustomUI: start customize the Ribbon UI (Id: Microsoft.Excel.Workbook).
+[2017-04-18 13:48:35.416|3DF8|EO_RibbonMerge|2|INFO ]Module 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Analytics\.' has 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Analytics\.\RibbonExcel2016.xml' Ribbon file.
+[2017-04-18 13:48:35.418|3DF8|EO_RibbonMerge|2|INFO ]Module 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\AutoColor' has 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\AutoColor\RibbonExcel2016.xml' Ribbon file.
+[2017-04-18 13:48:35.419|3DF8|EO_RibbonMerge|2|INFO ]Module 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..' has 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..\RibbonExcel2016.xml' Ribbon file.
+[2017-04-18 13:48:35.420|3DF8|EO_RibbonMerge|2|INFO ]Module 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Shortcuts' has 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Shortcuts\RibbonExcel2016.xml' Ribbon file.
+[2017-04-18 13:48:35.421|3DF8|EO_RibbonMerge|1|WARN ]Module 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\UndoStack' does not have 'C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\UndoStack\RibbonExcel2016.xml' Ribbon file.
+[2017-04-18 13:48:35.421|3DF8|EO_RibbonMerge|2|INFO ]Module 'C:\Program Files (x86)\Thomson Reuters\Eikon\X\Bin\Contributions\.' has 'C:\Program Files (x86)\Thomson Reuters\Eikon\X\Bin\Contributions\.\RibbonExcel2016.xml' Ribbon file.
+[2017-04-18 13:48:35.422|3DF8|EO_RibbonMerge|1|WARN ]Module 'C:\Program Files (x86)\Thomson Reuters\Eikon\X\Bin\Contributions\..' does not have 'C:\Program Files (x86)\Thomson Reuters\Eikon\X\Bin\Contributions\..\RibbonExcel2016.xml' Ribbon file.
+[2017-04-18 13:48:35.422|3DF8|EO_RibbonMerge|2|INFO ]Module 'C:\Program Files (x86)\Thomson Reuters\Eikon\X\Bin\FinancialAnalytics' has 'C:\Program Files (x86)\Thomson Reuters\Eikon\X\Bin\FinancialAnalytics\RibbonExcel2016.xml' Ribbon file.
+[2017-04-18 13:48:35.447|3DF8|EO_RIBBON     |2|INFO ][*]Connect.Ribbon_Load: custom Ribbon UI is loaded.
+[2017-04-18 13:48:35.483|3DF8|EO_INIT       |2|INFO ][*]OnStartupComplete event:  has been completely loaded.
+[2017-04-18 13:48:35.484|3DF8|EO_INIT       |2|INFO ]PowerLink COM addin start up completed.
+[2017-04-18 13:48:35.484|3DF8|EO_INIT       |2|INFO ]Loading and initializing component DLL "C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..\PLAddin.dll".
+[2017-04-18 13:48:35.495|3DF8|EO_INIT       |2|INFO ]FireAutoOpen launch on ExcelAddin
+[2017-04-18 13:48:35.498|3DF8|EO_CONFIG     |2|INFO ]Internationalization enabled. Requested culture: "en-US" requested language: "en"
+[2017-04-18 13:48:35.510|3DF8|EO_INIT       |2|INFO ]RegisterFunctions launch on ExcelAddin
+[2017-04-18 13:48:35.515|3DF8|EO_DATA       |2|INFO ]CreateWindowEx threadID = 15864
+[2017-04-18 13:48:35.643|3DF8|EO_INIT       |2|INFO ]Successfully loaded and initialized component DLL "C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..\PLAddin.dll".
+[2017-04-18 13:48:48.478|3DF8|EO_RIBBON     |2|INFO ]Button pressed id=StatusButton, tag=, label=Sign In
+[2017-04-18 13:49:02.568|1F18|EO_           |2|INFO ]User state: Authenticated
+[2017-04-18 13:49:02.686|1F18|EO_           |2|INFO ]User state: Authenticated
+[2017-04-18 13:49:02.711|3DF8|EO_Contributio|0|ERROR]Unknown value for force default scope value, will user configurable setting
+[2017-04-18 13:49:02.795|3DF8|EO_Contributio|2|INFO ]Permit params was empty for POWERLINK.RTCONTRIBUTE.PUBLISHING.PERMIT_PARAMS
+[2017-04-18 13:49:02.798|1F18|EO_           |1|WARN ]TREA.ExternalView.Client.PrimeInCellFormulaBuilder(): Unable to allow foreground window
+[2017-04-18 13:49:03.023|3DF8|EO_FNBTCHER   |2|INFO ][CEikonFunctionBatcher::WinProc]PIXL initialization is pending
+[2017-04-18 13:49:03.776|3DF8|EO_FNBTCHER   |2|INFO ][CEikonFunctionBatcher::WinProc]PIXL initialization is pending
+[2017-04-18 13:49:03.778|3DF8|EO_FNBTCHER   |2|INFO ][CEikonFunctionBatcher::WinProc]PIXL initialization is pending
+[2017-04-18 13:49:04.080|1990|EO_LOGIN      |2|INFO ][*]Loaded App: ["TR.OFFICE.CORE"] Eikon for Microsoft Office Core (32 bit) (Office Framework 4.0.39.168, Data Execution 4.0.39.168, Analytics 4.0.39.168) [UserAgentVersion 18.0.0.0]
+[2017-04-18 13:49:04.082|3DF8|EO_INIT       |2|INFO ]Begin of CConnectionMgr::OnAAAEvent ConnectionStateOnline/Local
+[2017-04-18 13:49:04.186|3DF8|EO_CONFIG     |2|INFO ]Realtime Settings: RData DefaultFrequency=STREAM, StreamingLimit=60 and RTDThrottle=1000
+[2017-04-18 13:49:04.395|3DF8|EO_INIT       |2|INFO ]Begin of CConnectionMgr::InitWebService
+[2017-04-18 13:49:04.395|3DF8|EO_INIT       |2|INFO ][DVAC::Tools::CContextLoader::GetContextInstance]Creation of active context SUCCEEDED using C:\Program Files (x86)\Thomson Reuters\Eikon\X\Bin\PLVBAWebservice.manifest
+[2017-04-18 13:49:04.395|3DF8|EO_INIT       |2|INFO ]Begin of CConnectionMgr::InitFDM
+[2017-04-18 13:49:04.395|3DF8|SD_FDM_WKTH   |2|INFO ]ProxyClientImpl::setGlobalProxyParams: OpenFileMapping failed
+[2017-04-18 13:49:04.396|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount number of processor(4)
+[2017-04-18 13:49:04.396|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount Max thread authorized(14)
+[2017-04-18 13:49:04.396|3DF8|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.396|3DF8|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.400|3DF8|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.402|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount number of processor(4)
+[2017-04-18 13:49:04.402|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount Max thread authorized(14)
+[2017-04-18 13:49:04.403|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::createThreadPool: Thread pool created. New number of threads: 14, HP threads included: 2
+[2017-04-18 13:49:04.403|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER) key(eikon.exe) value(128)
+[2017-04-18 13:49:04.403|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPER1_0SERVER) key(eikon.exe) value(128)
+[2017-04-18 13:49:04.403|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER) key(excel.exe) value(128)
+[2017-04-18 13:49:04.403|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPER1_0SERVER) key(excel.exe) value(128)
+[2017-04-18 13:49:04.403|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER) key(rdmc.exe) value(128)
+[2017-04-18 13:49:04.404|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPER1_0SERVER) key(rdmc.exe) value(128)
+[2017-04-18 13:49:04.404|3DF8|SD_FDM_MISC   |2|INFO ]Changing the Max conns per server (http 1.0 and http 1.1) to 128
+[2017-04-18 13:49:04.409|2428|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.409|2428|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.409|2428|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.409|1AA0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|1AA0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.410|1AA0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.409|3E8C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|3E8C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.410|3E8C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.409|322C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|322C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.410|322C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.409|19B8|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|19B8|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.410|19B8|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.409|165C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|165C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.410|165C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.409|21D0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|21D0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.409|3F5C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|3F5C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.410|3F5C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.410|21D0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.409|11B4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|11B4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.410|11B4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.409|4100|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|4100|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.409|4508|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.409|3BE0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.408|350C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|4508|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.410|4100|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.410|4508|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.409|3C44|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.410|3BE0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.410|350C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.410|3BE0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.410|350C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.410|3C44|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.411|3C44|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.472|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.gateway.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.480|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.gateway.cp.thomsonreuters.com
+[2017-04-18 13:49:04.480|3DF8|SD_FDM_MISC   |2|INFO ]setPriorityForDomain:: set priority to LOW (1) for timeserie
+[2017-04-18 13:49:04.480|3DF8|SD_FDM_MISC   |2|INFO ]setPriorityForDomain:: set priority to LOW (1) for ts-chunk
+[2017-04-18 13:49:04.481|3DF8|SD_FDM_MISC   |2|INFO ]setIdentificationString:: NET45,EIKON9.0.39417,SR0,ADF6.20164.11.10
+[2017-04-18 13:49:04.481|3DF8|SD_FDM_MISC   |2|INFO ]setExtraInfoIdentificationString:: Charcoal
+[2017-04-18 13:49:04.483|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://www.complinet.com) not found into access point trusted list
+[2017-04-18 13:49:04.483|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://www.complinet.com
+[2017-04-18 13:49:04.483|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.admin.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.483|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.admin.cp.thomsonreuters.com
+[2017-04-18 13:49:04.484|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.alertsstatic.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.484|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.alertsstatic.cp.thomsonreuters.com
+[2017-04-18 13:49:04.484|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.api.eikon.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.484|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.api.eikon.thomsonreuters.com
+[2017-04-18 13:49:04.484|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://api.financial.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.485|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://api.financial.thomsonreuters.com
+[2017-04-18 13:49:04.485|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.api.kaltura.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.485|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.api.kaltura.cp.thomsonreuters.com
+[2017-04-18 13:49:04.485|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.app.kaltura.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.486|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.app.kaltura.cp.thomsonreuters.com
+[2017-04-18 13:49:04.486|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.appcdn.kaltura.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.486|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.appcdn.kaltura.cp.thomsonreuters.com
+[2017-04-18 13:49:04.486|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.apps.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.487|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.apps.cp.thomsonreuters.com
+[2017-04-18 13:49:04.487|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.apps.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.487|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.apps.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.487|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.apps.cp.thomsonreuters.com
+[2017-04-18 13:49:04.487|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.autex.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.487|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.autex.cp.thomsonreuters.com
+[2017-04-18 13:49:04.488|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.bizcharts.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.488|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.bizcharts.cp.thomsonreuters.com
+[2017-04-18 13:49:04.488|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://amers1.bizcharts.views.ia.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.488|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://amers1.bizcharts.views.ia.thomsonreuters.com
+[2017-04-18 13:49:04.489|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.download.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.489|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.download.cp.thomsonreuters.com
+[2017-04-18 13:49:04.489|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://collab.extranet.thomsonreuters.biz) not found into access point trusted list
+[2017-04-18 13:49:04.489|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://collab.extranet.thomsonreuters.biz
+[2017-04-18 13:49:04.490|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://collab.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.490|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://collab.thomsonreuters.com
+[2017-04-18 13:49:04.490|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.cps.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.491|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.cps.cp.thomsonreuters.com
+[2017-04-18 13:49:04.491|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.creditviews.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.491|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.creditviews.cp.thomsonreuters.com
+[2017-04-18 13:49:04.492|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://customers.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.492|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://customers.thomsonreuters.com
+[2017-04-18 13:49:04.493|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://da.trading.thomsonreuters.net) not found into access point trusted list
+[2017-04-18 13:49:04.493|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://da.trading.thomsonreuters.net
+[2017-04-18 13:49:04.493|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.datastream.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.493|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.datastream.cp.thomsonreuters.com
+[2017-04-18 13:49:04.494|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.dealwatch.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.494|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.dealwatch.cp.thomsonreuters.com
+[2017-04-18 13:49:04.494|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.deskviews.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.494|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.deskviews.cp.thomsonreuters.com
+[2017-04-18 13:49:04.495|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.download.proxy.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.495|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.download.proxy.cp.thomsonreuters.com
+[2017-04-18 13:49:04.496|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.ecps.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.496|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.ecps.cp.thomsonreuters.com
+[2017-04-18 13:49:04.496|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.eikon.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.496|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.eikon.cp.thomsonreuters.com
+[2017-04-18 13:49:04.497|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://eikon.customers.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.497|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://eikon.customers.thomsonreuters.com
+[2017-04-18 13:49:04.497|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.download.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.497|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.download.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.497|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.download.cp.thomsonreuters.com
+[2017-04-18 13:49:04.498|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.download.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.498|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.download.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.498|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.download.cp.thomsonreuters.com
+[2017-04-18 13:49:04.499|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.eikonmessenger.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.499|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.eikonmessenger.cp.thomsonreuters.com
+[2017-04-18 13:49:04.499|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.emaxx.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.499|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.emaxx.cp.thomsonreuters.com
+[2017-04-18 13:49:04.500|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.exempt.proxy.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.500|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.exempt.proxy.cp.thomsonreuters.com
+[2017-04-18 13:49:04.500|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.fincharts.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.501|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.fincharts.cp.thomsonreuters.com
+[2017-04-18 13:49:04.501|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://amers1.fincharts.views.ia.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.501|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://amers1.fincharts.views.ia.thomsonreuters.com
+[2017-04-18 13:49:04.502|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.flowzone.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.502|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.flowzone.cp.thomsonreuters.com
+[2017-04-18 13:49:04.502|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.fxheatmap.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.502|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.fxheatmap.cp.thomsonreuters.com
+[2017-04-18 13:49:04.503|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.fxt.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.503|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.fxt.cp.thomsonreuters.com
+[2017-04-18 13:49:04.504|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.fxttest.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.504|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.fxttest.cp.thomsonreuters.com
+[2017-04-18 13:49:04.504|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.gateway.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.504|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.gateway.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.504|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.gateway.cp.thomsonreuters.com
+[2017-04-18 13:49:04.505|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.help.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.505|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.help.cp.thomsonreuters.com
+[2017-04-18 13:49:04.506|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://ics.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.506|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://ics.thomsonreuters.com
+[2017-04-18 13:49:04.506|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.ifrmarkets.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.506|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.ifrmarkets.cp.thomsonreuters.com
+[2017-04-18 13:49:04.507|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://insider.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.507|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://insider.thomsonreuters.com
+[2017-04-18 13:49:04.508|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.insider.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.508|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.insider.cp.thomsonreuters.com
+[2017-04-18 13:49:04.509|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.insiderstatic.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.509|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.insiderstatic.cp.thomsonreuters.com
+[2017-04-18 13:49:04.510|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.insiderstreaming.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.510|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.insiderstreaming.cp.thomsonreuters.com
+[2017-04-18 13:49:04.511|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.jpfilings.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.511|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.jpfilings.cp.thomsonreuters.com
+[2017-04-18 13:49:04.511|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.lipper.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.511|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.lipper.cp.thomsonreuters.com
+[2017-04-18 13:49:04.512|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.loanconnector.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.512|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.loanconnector.cp.thomsonreuters.com
+[2017-04-18 13:49:04.513|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://compliance.collab.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.513|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://compliance.collab.thomsonreuters.com
+[2017-04-18 13:49:04.514|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.mobile.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.514|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.mobile.cp.thomsonreuters.com
+[2017-04-18 13:49:04.514|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.mobile13.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.514|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.mobile13.cp.thomsonreuters.com
+[2017-04-18 13:49:04.515|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.mtr.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.515|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.mtr.cp.thomsonreuters.com
+[2017-04-18 13:49:04.516|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://my.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.516|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://my.thomsonreuters.com
+[2017-04-18 13:49:04.517|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.omnesys-ems.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.517|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.omnesys-ems.cp.thomsonreuters.com
+[2017-04-18 13:49:04.518|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner1.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.518|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner1.cp.thomsonreuters.com
+[2017-04-18 13:49:04.518|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner10.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.519|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner10.cp.thomsonreuters.com
+[2017-04-18 13:49:04.519|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner11.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.519|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner11.cp.thomsonreuters.com
+[2017-04-18 13:49:04.520|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner12.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.520|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner12.cp.thomsonreuters.com
+[2017-04-18 13:49:04.521|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner13.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.521|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner13.cp.thomsonreuters.com
+[2017-04-18 13:49:04.522|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner14.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.522|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner14.cp.thomsonreuters.com
+[2017-04-18 13:49:04.523|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner15.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.523|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner15.cp.thomsonreuters.com
+[2017-04-18 13:49:04.524|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner2.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.524|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner2.cp.thomsonreuters.com
+[2017-04-18 13:49:04.525|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner3.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.525|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner3.cp.thomsonreuters.com
+[2017-04-18 13:49:04.526|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner4.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.526|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner4.cp.thomsonreuters.com
+[2017-04-18 13:49:04.527|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner5.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.527|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner5.cp.thomsonreuters.com
+[2017-04-18 13:49:04.528|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner6.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.528|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner6.cp.thomsonreuters.com
+[2017-04-18 13:49:04.529|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner7.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.529|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner7.cp.thomsonreuters.com
+[2017-04-18 13:49:04.530|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner8.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.530|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner8.cp.thomsonreuters.com
+[2017-04-18 13:49:04.531|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.partner9.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.531|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.partner9.cp.thomsonreuters.com
+[2017-04-18 13:49:04.533|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.pefundperformance.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.533|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.pefundperformance.cp.thomsonreuters.com
+[2017-04-18 13:49:04.534|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.playback.kaltura.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.534|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.playback.kaltura.cp.thomsonreuters.com
+[2017-04-18 13:49:04.534|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.pointcarbon-io.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.535|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.pointcarbon-io.cp.thomsonreuters.com
+[2017-04-18 13:49:04.535|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.pointcarbon.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.536|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.pointcarbon.cp.thomsonreuters.com
+[2017-04-18 13:49:04.536|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.portfolioanalytics.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.537|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.portfolioanalytics.cp.thomsonreuters.com
+[2017-04-18 13:49:04.537|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.proxy.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.538|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.proxy.cp.thomsonreuters.com
+[2017-04-18 13:49:04.538|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.publisher.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.539|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.publisher.cp.thomsonreuters.com
+[2017-04-18 13:49:04.539|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.rapido.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.540|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.rapido.cp.thomsonreuters.com
+[2017-04-18 13:49:04.541|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.researchmonitor.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.541|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.researchmonitor.cp.thomsonreuters.com
+[2017-04-18 13:49:04.542|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.reutersbest.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.542|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.reutersbest.cp.thomsonreuters.com
+[2017-04-18 13:49:04.543|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://rs.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.543|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://rs.cp.thomsonreuters.com
+[2017-04-18 13:49:04.544|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.sandbox.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.544|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.sandbox.cp.thomsonreuters.com
+[2017-04-18 13:49:04.545|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.snapshot.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.545|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.snapshot.cp.thomsonreuters.com
+[2017-04-18 13:49:04.546|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.streaming-fxall.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.547|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.streaming-fxall.cp.thomsonreuters.com
+[2017-04-18 13:49:04.547|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1-fxall-hmds.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.548|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1-fxall-hmds.cp.thomsonreuters.com
+[2017-04-18 13:49:04.548|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.streaming.apps.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.549|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.streaming.apps.cp.thomsonreuters.com
+[2017-04-18 13:49:04.549|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1-cm-hmds.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.550|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1-cm-hmds.cp.thomsonreuters.com
+[2017-04-18 13:49:04.550|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1-hosted-hmds.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.551|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1-hosted-hmds.cp.thomsonreuters.com
+[2017-04-18 13:49:04.551|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.streamingweb.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.551|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.streamingweb.cp.thomsonreuters.com
+[2017-04-18 13:49:04.552|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1-ws-hmds.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.553|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1-ws-hmds.cp.thomsonreuters.com
+[2017-04-18 13:49:04.553|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://amers1.streamingwm.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.554|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://amers1.streamingwm.cp.thomsonreuters.com
+[2017-04-18 13:49:04.554|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://amers1.streamingwm.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.554|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://amers1.streamingwm.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.555|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://amers1.streamingwm.cp.thomsonreuters.com
+[2017-04-18 13:49:04.555|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.streetsight.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.556|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.streetsight.cp.thomsonreuters.com
+[2017-04-18 13:49:04.557|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.test.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.557|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.test.cp.thomsonreuters.com
+[2017-04-18 13:49:04.558|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.timeseries.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.558|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.timeseries.cp.thomsonreuters.com
+[2017-04-18 13:49:04.559|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.tm3.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.559|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.tm3.cp.thomsonreuters.com
+[2017-04-18 13:49:04.560|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.trace.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.560|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.trace.cp.thomsonreuters.com
+[2017-04-18 13:49:04.561|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://trading.rs.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.561|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://trading.rs.cp.thomsonreuters.com
+[2017-04-18 13:49:04.562|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.transactions.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.563|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.transactions.cp.thomsonreuters.com
+[2017-04-18 13:49:04.564|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.ts.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.564|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.ts.cp.thomsonreuters.com
+[2017-04-18 13:49:04.565|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.update.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.565|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.update.cp.thomsonreuters.com
+[2017-04-18 13:49:04.566|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.vav.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.566|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.vav.cp.thomsonreuters.com
+[2017-04-18 13:49:04.567|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.views.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.568|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.views.cp.thomsonreuters.com
+[2017-04-18 13:49:04.569|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://amers1.views.ia.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.569|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://amers1.views.ia.thomsonreuters.com
+[2017-04-18 13:49:04.570|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.viewsstatic1.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.570|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.viewsstatic1.cp.thomsonreuters.com
+[2017-04-18 13:49:04.571|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://amers1.viewsstatic1.ia.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.571|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://amers1.viewsstatic1.ia.thomsonreuters.com
+[2017-04-18 13:49:04.572|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.viewsstatic2.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.572|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.viewsstatic2.cp.thomsonreuters.com
+[2017-04-18 13:49:04.574|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://amers1.viewsstatic2.ia.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.574|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://amers1.viewsstatic2.ia.thomsonreuters.com
+[2017-04-18 13:49:04.575|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.viewsstatic3.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.575|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://emea1.viewsstatic3.cp.thomsonreuters.com
+[2017-04-18 13:49:04.577|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://amers1.viewsstatic3.ia.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.577|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://amers1.viewsstatic3.ia.thomsonreuters.com
+[2017-04-18 13:49:04.578|3DF8|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://amers1.webqa.cp.thomsonreuters.com) not found into access point trusted list
+[2017-04-18 13:49:04.578|3DF8|SD_FDM_MISC   |2|INFO ]addTrustedAccessPoint:: add access point https://amers1.webqa.cp.thomsonreuters.com
+[2017-04-18 13:49:04.597|3DF8|EO_INIT       |1|WARN ][InitFDM] l_spFileDownloadManager2->setIdentificationCookieToUrl Failed. HRESULT=-2147467259 wsUrl=emea1.streaming.cp.thomsonreuters.com
+[2017-04-18 13:49:04.597|3DF8|EO_INIT       |1|WARN ][InitFDM] l_spFileDownloadManager2->setIdentificationCookieToUrl Failed. HRESULT=-2147467259 wsUrl=emea1.streamingcm.cp.thomsonreuters.com
+[2017-04-18 13:49:04.601|3DF8|EO_INIT       |1|WARN ][InitFDM] l_spFileDownloadManager2->setIdentificationCookieToUrl Failed. HRESULT=-2147467259 wsUrl=https://emea1.views.cp.thomsonreuters.com
+[2017-04-18 13:49:04.603|3DF8|EO_INIT       |2|INFO ]End of CConnectionMgr::InitFDM
+[2017-04-18 13:49:04.603|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::Shutdown Cleanup ResyncManager
+[2017-04-18 13:49:04.603|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::deleteThreadPool
+[2017-04-18 13:49:04.603|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount number of processor(4)
+[2017-04-18 13:49:04.603|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount Max thread authorized(14)
+[2017-04-18 13:49:04.603|3C44|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|350C|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|4100|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|4508|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|11B4|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|3BE0|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|21D0|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|3F5C|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|165C|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|19B8|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|322C|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|3E8C|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|1AA0|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.603|2428|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:49:04.604|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::deleteThreadPool: Thread pool deleted
+[2017-04-18 13:49:04.633|3DF8|SD_FDM_WKTH   |2|INFO ]ProxyClientImpl::setGlobalProxyParams: OpenFileMapping failed
+[2017-04-18 13:49:04.634|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount number of processor(4)
+[2017-04-18 13:49:04.634|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount Max thread authorized(14)
+[2017-04-18 13:49:04.634|3DF8|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.634|3DF8|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.634|3DF8|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.634|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount number of processor(4)
+[2017-04-18 13:49:04.634|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount Max thread authorized(14)
+[2017-04-18 13:49:04.634|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::createThreadPool: Thread pool created. New number of threads: 14, HP threads included: 2
+[2017-04-18 13:49:04.634|124C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.634|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER) key(eikon.exe) value(128)
+[2017-04-18 13:49:04.634|124C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.634|124C|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.635|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPER1_0SERVER) key(eikon.exe) value(128)
+[2017-04-18 13:49:04.635|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER) key(excel.exe) value(128)
+[2017-04-18 13:49:04.635|3A80|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.635|3A80|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.635|3A80|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.635|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPER1_0SERVER) key(excel.exe) value(128)
+[2017-04-18 13:49:04.635|42C4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.635|42C4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.635|42C4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.635|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER) key(rdmc.exe) value(128)
+[2017-04-18 13:49:04.635|1ECC|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.635|1ECC|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.635|1ECC|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.635|3DF8|SD_FDM_MISC   |2|INFO ]PutRegistryDWord set registry path(SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPER1_0SERVER) key(rdmc.exe) value(128)
+[2017-04-18 13:49:04.635|2630|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.635|2630|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.635|2630|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.635|3DF8|SD_FDM_MISC   |2|INFO ]Changing the Max conns per server (http 1.0 and http 1.1) to 128
+[2017-04-18 13:49:04.636|34A0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.636|34A0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.636|34A0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.636|2924|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.636|2924|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.636|2924|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.636|3DF8|EO_INIT       |2|INFO ]End of CConnectionMgr::InitWebService
+[2017-04-18 13:49:04.637|1940|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.637|1940|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.637|1940|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.637|49F4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.637|49F4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.637|49F4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.637|05A4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.637|05A4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.637|05A4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.638|1DDC|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.638|37E4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.638|4A58|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.638|45A0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(0) bSessionParametersChanged(1) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.638|1DDC|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.638|37E4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.638|1DDC|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.638|37E4|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.638|45A0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.638|4A58|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: Session parameter changed, terminate current wininet session
+[2017-04-18 13:49:04.638|45A0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.638|4A58|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: no proxy url
+[2017-04-18 13:49:04.639|2274|EO_INIT       |2|INFO ]Begin of asynchronous initialisation.
+[2017-04-18 13:49:04.639|2274|EO_INIT       |2|INFO ]Begin of RTM initialisation.
+[2017-04-18 13:49:04.644|3DF8|EO_LOGIN      |2|INFO ][DVAC::CExcelMgr::OnLogin][*]Product=Thomson Reuters Eikon - Microsoft Office, Version=4.0.39417
+[2017-04-18 13:49:04.645|3DF8|EO_LOGIN      |2|INFO ][DVAC::CExcelMgr::OnLogin][*]UserID=biljana.janicijevic1@thomsonreuters.com, UUID=SL1-2RHJXKT, DataCenter=EMEA1, DeliveryMode=/INTERNET(Thomson Reuters Hosted - Internet), Lang=en-US
+[2017-04-18 13:49:04.766|3DF8|EO_EXCEL_EVENT|2|INFO ][DVAC::CExcelMgr::OnLogin]OnConnection event fired
+[2017-04-18 13:49:04.840|2274|EO_INIT       |2|INFO ]End of RTM initialisation.
+[2017-04-18 13:49:04.842|2274|EO_INIT       |2|INFO ]Begin of UFA initialisation.
+[2017-04-18 13:49:04.875|2274|EO_INIT       |2|INFO ]End of UFA initialisation.
+[2017-04-18 13:49:04.876|2274|UFA_MGR       |2|INFO ]UFAManager::subscribe daps://reuters/Xtra60/Config/m_version.dat
+[2017-04-18 13:49:04.922|2274|UFA_MGR       |2|INFO ]UFAManager::getUriTask task CREATED daps://reuters/Xtra60/Config/m_version.dat with UriClean daps://reuters/Xtra60/Config/m_version.dat
+[2017-04-18 13:49:04.923|2274|UFA_MGR       |2|INFO ]UFAManager::StartDownload : load daps://reuters/Xtra60/Config/m_version.dat
+[2017-04-18 13:49:04.923|2274|UFA_MGR       |2|INFO ]UFAManager::executeRequest SUCCESS daps://reuters/Xtra60/Config/m_version.dat
+[2017-04-18 13:49:04.923|2730|SD_FDM_MISC   |2|INFO ](0) AsyncSoap::setCallback Call (0x1efd6338) callback(0)
+[2017-04-18 13:49:04.924|2730|SD_FDM_MISC   |2|INFO ]RequestPriority::RequestPriority set default priority mode to FDM_PRIORITY_MODE_AS_TRIGGER
+[2017-04-18 13:49:04.924|2730|SD_FDM_MISC   |2|INFO ]RequestPriority::RequestPriority set default priority level to FDM_REQUEST_NORMAL_PRIO
+[2017-04-18 13:49:04.924|2730|SD_FDM_MISC   |2|INFO ](0x13307ee0)Create Request for (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc) with header(0x1efd6344), cache(0), proxy(0x1efd634c), default priority(0)
+[2017-04-18 13:49:04.924|2730|SD_FDM_MISC   |2|INFO ](0x13307ee0) AsyncSoap::open Call (0x1efd6338) (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+[2017-04-18 13:49:04.925|2730|SD_FDM_MISC   |2|INFO ](0x13307ee0) AsyncSoap::setCallback Call (0x1efd6338) callback(1efa597c)
+[2017-04-18 13:49:04.925|2730|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::Request url(https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc) treated with priority (0)
+[2017-04-18 13:49:04.925|2730|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: New request         (0x13307ee0): threads available. Starting new request.
+[2017-04-18 13:49:04.925|2730|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: Dispatching request (0x13307ee0): Processing requests: 1. Queued requests: 0
+[2017-04-18 13:49:04.925|4A58|SD_FDM_MISC   |2|INFO ]_ThreadProc Pop from queue (0x13307ee0) (0) pending with 0 prio 0
+[2017-04-18 13:49:04.925|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0) Do Request
+[2017-04-18 13:49:04.925|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0) Request Creation to Processing Time: 0:0.000
+[2017-04-18 13:49:04.925|4A58|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(1) bSessionParametersChanged(0) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.925|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0) Async SOAP (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+[2017-04-18 13:49:04.925|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0) Request Processing to Connecting Time: 0:0.000
+[2017-04-18 13:49:04.926|4A58|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.gateway.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.926|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0) Request Processing to Sending Time: 0:0.001
+[2017-04-18 13:49:04.933|2274|UFA_MGR       |2|INFO ]UFAManager::subscribe daps://reuters/Xtra60/Config/m_rates.dat.zip
+[2017-04-18 13:49:04.933|2274|UFA_MGR       |2|INFO ]UFAManager::getUriTask task CREATED daps://reuters/Xtra60/Config/m_rates.dat.zip with UriClean daps://reuters/Xtra60/Config/m_rates.dat.zip
+[2017-04-18 13:49:04.933|2274|UFA_MGR       |2|INFO ]UFAManager::StartDownload : load daps://reuters/Xtra60/Config/m_rates.dat.zip
+[2017-04-18 13:49:04.933|2274|UFA_MGR       |2|INFO ]UFAManager::executeRequest SUCCESS daps://reuters/Xtra60/Config/m_rates.dat.zip
+[2017-04-18 13:49:04.933|2730|SD_FDM_MISC   |2|INFO ](0) AsyncSoap::setCallback Call (0x11225f28) callback(0)
+[2017-04-18 13:49:04.933|2730|SD_FDM_MISC   |2|INFO ]RequestPriority::RequestPriority set default priority mode to FDM_PRIORITY_MODE_AS_TRIGGER
+[2017-04-18 13:49:04.933|2730|SD_FDM_MISC   |2|INFO ]RequestPriority::RequestPriority set default priority level to FDM_REQUEST_NORMAL_PRIO
+[2017-04-18 13:49:04.933|2730|SD_FDM_MISC   |2|INFO ](0x13309150)Create Request for (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc) with header(0x11225f34), cache(0), proxy(0x11225f3c), default priority(0)
+[2017-04-18 13:49:04.933|2730|SD_FDM_MISC   |2|INFO ](0x13309150) AsyncSoap::open Call (0x11225f28) (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+[2017-04-18 13:49:04.934|2730|SD_FDM_MISC   |2|INFO ](0x13309150) AsyncSoap::setCallback Call (0x11225f28) callback(12bef32c)
+[2017-04-18 13:49:04.934|2730|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::Request url(https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc) treated with priority (0)
+[2017-04-18 13:49:04.934|2730|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: New request         (0x13309150): threads available. Starting new request.
+[2017-04-18 13:49:04.934|2730|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: Dispatching request (0x13309150): Processing requests: 2. Queued requests: 0
+[2017-04-18 13:49:04.934|45A0|SD_FDM_MISC   |2|INFO ]_ThreadProc Pop from queue (0x13309150) (0) pending with 0 prio 0
+[2017-04-18 13:49:04.934|45A0|SD_FDM_MISC   |2|INFO ](0x13309150) Do Request
+[2017-04-18 13:49:04.934|45A0|SD_FDM_MISC   |2|INFO ](0x13309150) Request Creation to Processing Time: 0:0.000
+[2017-04-18 13:49:04.934|45A0|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(1) bSessionParametersChanged(0) bProxyAgentEnabled(0)
+[2017-04-18 13:49:04.934|45A0|SD_FDM_MISC   |2|INFO ](0x13309150) Async SOAP (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+[2017-04-18 13:49:04.934|45A0|SD_FDM_MISC   |2|INFO ](0x13309150) Request Processing to Connecting Time: 0:0.000
+[2017-04-18 13:49:04.934|45A0|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.gateway.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:04.934|45A0|SD_FDM_MISC   |2|INFO ](0x13309150) Request Processing to Sending Time: 0:0.000
+[2017-04-18 13:49:05.030|2274|EO_INIT       |2|INFO ]End of Adfin initialisation.
+[2017-04-18 13:49:05.030|2274|EO_INIT       |2|INFO ]End of asynchronous initialisation.
+[2017-04-18 13:49:05.085|3DF8|EO_EXCEL_EVENT|2|INFO ][DVAC::CExcelEventListener::WorkbookOpen]WorkbookOpen: EikonExcel_Macro.xla
+[2017-04-18 13:49:05.145|3DF8|EO_INIT       |2|INFO ]End of CConnectionMgr::OnAAAEvent
+[2017-04-18 13:49:05.146|3DF8|EO_FNBTCHER   |2|INFO ][CEikonFunctionBatcher::WinProc]PIXL initialization has succeeded
+[2017-04-18 13:49:05.146|3DF8|EO_FNBTCHER   |2|INFO ][CEikonFunctionBatcher::WinProc]PIXL initialization has succeeded
+[2017-04-18 13:49:05.146|3DF8|EO_FNBTCHER   |2|INFO ][CEikonFunctionBatcher::WinProc]PIXL initialization has succeeded
+[2017-04-18 13:49:05.146|3DF8|EO_FNBTCHER   |2|INFO ][CEikonFunctionBatcher::WinProc]PIXL initialization has succeeded
+[2017-04-18 13:49:05.242|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0) HttpSendRequestW done, result [1], SSL flag [1]
+[2017-04-18 13:49:05.242|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0) Status code for request [200]
+[2017-04-18 13:49:05.244|4A58|UFA_MGR       |2|INFO ]UFAManager::getUriTask task NOT CREATED daps://reuters/Xtra60/Config/m_version.dat with UriClean daps://reuters/Xtra60/Config/m_version.dat
+[2017-04-18 13:49:05.244|4A58|UFA_MGR       |2|INFO ]UFAManager::TriggerCallBacks : daps://reuters/Xtra60/Config/m_version.dat, hr=0
+[2017-04-18 13:49:05.276|4A58|UFA_MGR       |2|INFO ]UFAManager::subscribe daps://reuters/Xtra60/Config/m_public_v5.dat
+[2017-04-18 13:49:05.276|4A58|UFA_MGR       |2|INFO ]UFAManager::getUriTask task CREATED daps://reuters/Xtra60/Config/m_public_v5.dat with UriClean daps://reuters/Xtra60/Config/m_public_v5.dat
+[2017-04-18 13:49:05.276|4A58|UFA_MGR       |2|INFO ]UFAManager::StartDownload : load daps://reuters/Xtra60/Config/m_public_v5.dat
+[2017-04-18 13:49:05.276|4A58|UFA_MGR       |2|INFO ]UFAManager::executeRequest SUCCESS daps://reuters/Xtra60/Config/m_public_v5.dat
+[2017-04-18 13:49:05.277|2730|SD_FDM_MISC   |2|INFO ](0) AsyncSoap::setCallback Call (0x12c27ad0) callback(0)
+[2017-04-18 13:49:05.277|2730|SD_FDM_MISC   |2|INFO ]RequestPriority::RequestPriority set default priority mode to FDM_PRIORITY_MODE_AS_TRIGGER
+[2017-04-18 13:49:05.277|2730|SD_FDM_MISC   |2|INFO ]RequestPriority::RequestPriority set default priority level to FDM_REQUEST_NORMAL_PRIO
+[2017-04-18 13:49:05.277|2730|SD_FDM_MISC   |2|INFO ](0x133089f0)Create Request for (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc) with header(0x12c27adc), cache(0), proxy(0x12c27ae4), default priority(0)
+[2017-04-18 13:49:05.277|2730|SD_FDM_MISC   |2|INFO ](0x133089f0) AsyncSoap::open Call (0x12c27ad0) (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+[2017-04-18 13:49:05.277|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0) AsyncSoap::setCallback Call (0x1efd6338) callback(0)
+[2017-04-18 13:49:05.277|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0) ----Async SOAP ENDED (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+		scheme(2) cur(1635) downloaded(1635) status(200)
+[2017-04-18 13:49:05.277|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0) Request total time: 0:0.352
+[2017-04-18 13:49:05.277|4A58|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::_ThreadProc: request processed: (0x13307ee0)
+[2017-04-18 13:49:05.277|4A58|SD_FDM_MISC   |2|INFO ](0x13307ee0)Delete Request (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+[2017-04-18 13:49:05.277|4A58|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: Finished request    (0x13307ee0): New available thread, no more HP requests to process, searching for an existing LP request to process...
+[2017-04-18 13:49:05.278|4A58|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: Finished request    (0x13307ee0): No more requests to process. Processing requests: 1. Queued requests: 0
+[2017-04-18 13:49:05.278|2730|SD_FDM_MISC   |2|INFO ](0x133089f0) AsyncSoap::setCallback Call (0x12c27ad0) callback(1eebfd44)
+[2017-04-18 13:49:05.278|2730|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::Request url(https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc) treated with priority (0)
+[2017-04-18 13:49:05.278|2730|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: New request         (0x133089f0): threads available. Starting new request.
+[2017-04-18 13:49:05.278|2730|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: Dispatching request (0x133089f0): Processing requests: 2. Queued requests: 0
+[2017-04-18 13:49:05.278|4A58|SD_FDM_MISC   |2|INFO ]_ThreadProc Pop from queue (0x133089f0) (0) pending with 0 prio 0
+[2017-04-18 13:49:05.278|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0) Do Request
+[2017-04-18 13:49:05.278|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0) Request Creation to Processing Time: 0:0.000
+[2017-04-18 13:49:05.278|4A58|SD_FDM_MISC   |2|INFO ]WorkerThread::Init: m_bInitialized(1) bSessionParametersChanged(0) bProxyAgentEnabled(0)
+[2017-04-18 13:49:05.278|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0) Async SOAP (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+[2017-04-18 13:49:05.278|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0) Request Processing to Connecting Time: 0:0.000
+[2017-04-18 13:49:05.278|4A58|SD_FDM_MISC   |2|INFO ]isTrustedAccessPoint:: hostname(https://emea1.gateway.cp.thomsonreuters.com) found into access point trusted list
+[2017-04-18 13:49:05.278|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0) Request Processing to Sending Time: 0:0.000
+[2017-04-18 13:49:05.342|3DF8|EO_INIT       |2|INFO ]No attempt to load component DLL "C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..\PLAddin.dll" after login.
+[2017-04-18 13:49:05.429|45A0|SD_FDM_MISC   |2|INFO ](0x13309150) HttpSendRequestW done, result [1], SSL flag [1]
+[2017-04-18 13:49:05.429|45A0|SD_FDM_MISC   |2|INFO ](0x13309150) Status code for request [200]
+[2017-04-18 13:49:05.452|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0) HttpSendRequestW done, result [1], SSL flag [1]
+[2017-04-18 13:49:05.452|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0) Status code for request [200]
+[2017-04-18 13:49:05.772|4A58|UFA_MGR       |2|INFO ]UFAManager::getUriTask task NOT CREATED daps://reuters/Xtra60/Config/m_public_v5.dat with UriClean daps://reuters/Xtra60/Config/m_public_v5.dat
+[2017-04-18 13:49:05.772|4A58|UFA_MGR       |2|INFO ]UFAManager::TriggerCallBacks : daps://reuters/Xtra60/Config/m_public_v5.dat, hr=0
+[2017-04-18 13:49:05.818|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0) AsyncSoap::setCallback Call (0x12c27ad0) callback(0)
+[2017-04-18 13:49:05.819|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0) ----Async SOAP ENDED (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+		scheme(2) cur(2337313) downloaded(2337313) status(200)
+[2017-04-18 13:49:05.819|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0) Request total time: 0:0.540
+[2017-04-18 13:49:05.819|4A58|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::_ThreadProc: request processed: (0x133089f0)
+[2017-04-18 13:49:05.820|4A58|SD_FDM_MISC   |2|INFO ](0x133089f0)Delete Request (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+[2017-04-18 13:49:05.820|4A58|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: Finished request    (0x133089f0): New available thread, no more HP requests to process, searching for an existing LP request to process...
+[2017-04-18 13:49:05.820|4A58|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: Finished request    (0x133089f0): No more requests to process. Processing requests: 1. Queued requests: 0
+[2017-04-18 13:49:07.704|45A0|UFA_MGR       |2|INFO ]UFAManager::getUriTask task NOT CREATED daps://reuters/Xtra60/Config/m_rates.dat.zip with UriClean daps://reuters/Xtra60/Config/m_rates.dat.zip
+[2017-04-18 13:49:07.704|45A0|UFA_MGR       |2|INFO ]UFAManager::TriggerCallBacks : daps://reuters/Xtra60/Config/m_rates.dat.zip, hr=0
+[2017-04-18 13:49:07.793|45A0|SD_FDM_MISC   |2|INFO ](0x13309150) AsyncSoap::setCallback Call (0x11225f28) callback(0)
+[2017-04-18 13:49:07.793|45A0|SD_FDM_MISC   |2|INFO ](0x13309150) ----Async SOAP ENDED (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+		scheme(2) cur(1697629) downloaded(1697629) status(200)
+[2017-04-18 13:49:07.793|45A0|SD_FDM_MISC   |2|INFO ](0x13309150) Request total time: 0:2.859
+[2017-04-18 13:49:07.793|45A0|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::_ThreadProc: request processed: (0x13309150)
+[2017-04-18 13:49:07.794|45A0|SD_FDM_MISC   |2|INFO ](0x13309150)Delete Request (https://emea1.gateway.cp.thomsonreuters.com/rs/RoutingService.svc)
+[2017-04-18 13:49:07.794|45A0|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::dispatchRequest: Finished request    (0x13309150): New available thread, no more requests to process. Processing requests: 0. Queued requests: 0
+[2017-04-18 13:49:30.543|3DF8|EO_RIBBON     |2|INFO ]Button pressed id=ThomsonReuters_EikonOffice_ChromiumScreener, tag=, label=Build Formula
+[2017-04-18 13:49:30.623|3DF8|EO_           |2|INFO ]PerformanceTrace - Not Enabled
+[2017-04-18 13:49:37.399|1990|EO_           |0|ERROR]System.Runtime.InteropServices.COMException (0x800A03EC): Programmatic access to Visual Basic Project is not trusted
+
+   at Microsoft.Office.Interop.Excel._Workbook.get_VBProject()
+   at ThomsonReuters.CommonOffice.Wrappers.Excel.Workbook.GetMacroNames()
+   at TREA.Module.HtmlFormulaBuilder.OfficeJetEventHandler.GetMacros()
+   at TREA.Module.HtmlFormulaBuilder.OfficeJetEventHandler._client_Execute(String data, String channel, Nullable`1 owner, String url)
+[2017-04-18 13:49:46.058|3F58|EO_           |2|INFO ]PerformanceTrace - Not Enabled
+[2017-04-18 13:49:51.050|3DF8|EO_DATA       |2|INFO ][DVAC::CFunctionManager::AddFunction][*]At least one TR function used.
+[2017-04-18 13:49:51.078|3DF8|EO_           |2|INFO ]User state: Authenticated
+[2017-04-18 13:49:51.367|0E24|EO_           |2|INFO ]PerformanceTrace - Not Enabled
+[2017-04-18 13:49:51.373|1F18|EO_           |2|INFO ]PerformanceTrace - Not Enabled
+[2017-04-18 13:50:20.906|3DF8|EO_EXCEL_EVENT|2|INFO ][DVAC::CExcelEventListener::WorkbookBeforeClose]WorkbookBeforeClose: Book1
+[2017-04-18 13:50:20.924|3DF8|EO_EXCEL_EVENT|2|INFO ][DVAC::CExcelEventListener::WorkbookBeforeClose]WorkbookBeforeClose: EikonExcel_Macro.xla
+[2017-04-18 13:50:22.299|3DF8|EO_END        |2|INFO ][*]OnBeginShutdown event: the host application is being unloaded.
+[2017-04-18 13:50:22.302|3DF8|EO_END        |2|INFO ][*]OnDisconnection event:  is being unloaded in HostShutdown mode.
+[2017-04-18 13:50:22.305|3DF8|EO_INIT       |2|INFO ]Start unloading PowerLink COM addin.
+[2017-04-18 13:50:22.305|3DF8|EO_EXCEL_EVENT|1|WARN ][XllLoader::UnloadComponents]OnDisconnection event fired
+[2017-04-18 13:50:22.305|3DF8|EO_INIT       |2|INFO ]Unloading component DLL "C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..\PLAddin.dll".
+[2017-04-18 13:50:22.337|3DF8|EO_EXCEL      |2|INFO ]xlAutoClose in ExcelEntryPoints
+[2017-04-18 13:50:22.358|3DF8|EO_INIT       |2|INFO ]Finished unload of component DLL "C:\Users\Raman_Nasovich\AppData\Local\Thomson Reuters\Eikon User\Cache\LibraryCache\Apps\TR.OFFICE.CORE\4.0.39.1\Bin\Eikon\..\PLAddin.dll".
+[2017-04-18 13:50:22.358|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::Shutdown Cleanup ResyncManager
+[2017-04-18 13:50:22.358|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::deleteThreadPool
+[2017-04-18 13:50:22.358|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount number of processor(4)
+[2017-04-18 13:50:22.358|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::GetMaxAuthorizedThreadCount Max thread authorized(14)
+[2017-04-18 13:50:22.358|45A0|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.358|4A58|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.358|37E4|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.358|1DDC|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.358|05A4|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.358|49F4|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.358|1940|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.358|2924|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.358|34A0|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.358|2630|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.358|1ECC|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.359|42C4|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.359|3A80|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.359|124C|SD_FDM_MISC   |2|INFO ]_ThreadProc():: GetQueuedCompletionStatus thread shutdown
+[2017-04-18 13:50:22.359|3DF8|SD_FDM_MISC   |2|INFO ]ThreadPoolImp::deleteThreadPool: Thread pool deleted
+[2017-04-18 13:50:22.359|3DF8|EO_INIT       |2|INFO ]Asynchronous initialisation thread stopped.
+[2017-04-18 13:50:22.366|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.368|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.370|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.371|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.372|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.374|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.375|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.376|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.378|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.379|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.381|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.383|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.384|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.386|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.387|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:22.388|3DF8|EO_CONFIG     |1|WARN ]Failed to open registry entry HKEY_LOCAL_MACHINE/SOFTWARE\Classes with access 131078.
+	=>Trying to open HKEY_CURRENT_USER/SOFTWARE\Classes with access 131078.
+[2017-04-18 13:50:23.640|35D8|OFFICE_LOGGER |2|INFO ]Logs are disabled.

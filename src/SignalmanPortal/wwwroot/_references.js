@@ -2,6 +2,7 @@
 /// <reference path="data/books/5.js" />
 /// <reference path="js/app.module.js" />
 /// <reference path="js/bookcategoriescontroller.js" />
+/// <reference path="js/bookscontroller.js" />
 /// <reference path="js/site.js" />
 /// <reference path="lib/angular/angular.js" />
 /// <reference path="lib/bootstrap/dist/js/bootstrap.js" />

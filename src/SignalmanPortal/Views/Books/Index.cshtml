@@ -1,48 +1,27 @@
-﻿@model IEnumerable<BookCategory>
-
-<div class="col-md-3">
-    <ul id="booksCategories" class="list-group">
-        <li class="list-group-item active">Все</li>
-        @foreach (var category in Model)
-        {
-            <li class="list-group-item">@category.Name</li>
-        }
-    </ul>
-</div>
-<div id="booksListView" class="col-md-9">
-    @await Component.InvokeAsync("BooksList")
+﻿<div id="booksView" class="hidden" ng-controller="booksController">
+    <div class="col-md-3">
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="category in categories" ng-click="selectCategory(category.categoryId, $index)" ng-class="{active: $index == selectedCategoryId}">{{category.name}}</li>
+        </ul>
+    </div>
+    <div id="booksListView" class="col-md-9">
+        <div style="height:150px; float:left; margin:10px 0; padding:0;" class="col-md-12" ng-repeat="book in books">
+            <div style="background-color:#f7f7f7; margin:0 10px; height:inherit; border:1px solid grey" class="novelty-inner">
+                <div class="col-md-3" style="height: inherit;">
+                    <img style="max-width:100%;" class="book-list-item-image" src="~/images/books/{{book.bookId + book.imageExtension}}" />
+                </div>
+                <div style="position:relative; height:inherit" class="col-md-9">
+                    <p class="margin-top-10">{{book.name}}</p>
+                    <p>{{book.description}}</p>
+                    <a class="book-details-link" href="/books/details/{{book.bookId}}">
+                        Подробнее
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 @section Scripts{
-    <script>
-
-        var page = 0;
-
-        var listGroupItemsSelect = "#booksCategories .list-group-item";
-
-        $(listGroupItemsSelect).click(function () {
-            $(listGroupItemsSelect).removeClass('active');
-            $(this).addClass('active');
-            $.get("/Books/GetUpdatedViewComponent?categoryName=" + this.textContent, function (data) {
-                $("#booksListView").html(data);
-                page = 0;
-            })
-        });
-
-        $(window).scroll(function () {
-            if ($(window).scrollTop() == $(document).height() - $(window).height()) {
-                console.log('reached bottom of the page');
-            }
-        });
-
-        $(window).bind('mousewheel DOMMouseScroll', function (event) {
-            if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
-            }
-            else {
-                if ($(window).scrollTop() == $(document).height() - $(window).height()) {
-                    console.log('reached bottom of the page from mousewheel');
-                }
-            }
-        });
-    </script>
+    <script src="~/js/booksController.js"></script>
 }

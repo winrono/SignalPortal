@@ -27,9 +27,23 @@ namespace SignalmanPortal.Controllers
             return View(_booksRepository.GetBookById(id));
         }
 
-        public IActionResult GetUpdatedViewComponent(string categoryName)
+        public IActionResult GetBooksForCategory(int? categoryId, int pageId, int itemsPerPage)
         {
-            return ViewComponent("BooksList", new { categoryName = categoryName });
+            if (itemsPerPage == 0)
+            {
+                itemsPerPage = 6;
+            }
+
+            var books = _booksRepository.Books;
+
+            if (categoryId != null)
+            {
+                books = books.Where(x => x.CategoryId == categoryId);
+            }
+
+            books = books.OrderByDescending(x => x.BookId).Skip(pageId *itemsPerPage).Take(itemsPerPage);
+
+            return new JsonResult(books);
         }
 
         public FileResult DownloadBook(int id, string fileExtension)
