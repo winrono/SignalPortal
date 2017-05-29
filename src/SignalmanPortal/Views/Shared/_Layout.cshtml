@@ -7,22 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SignalmanPortal</title>
 
-    <environment names="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
-        <link rel="stylesheet" href="~/lib/animate.css/animate.css" />
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
         <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />
         <link rel="stylesheet" href="~/lib/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" />
-    </environment>
-    <environment names="Staging,Production">
-        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-        <link rel="stylesheet" href="~/lib/animate.css/animate.css" />
-        <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />
-        <link rel="stylesheet" href="~/lib/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" />
-    </environment>
     @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
 </head>
 <body>
@@ -31,7 +19,7 @@
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a title="Главная" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/home.svg" /></a></li>
-                    <li><a title="Обучение" asp-area="" asp-controller="Books" asp-action="Index"><img src="~/images/learning.svg" /></a></li>
+                    <li><a title="Обучение" href="#/books"><img src="~/images/learning.svg" /></a></li>
                     <li><a title="Новости" asp-area="" asp-controller="News" asp-action="Index"><img src="~/images/news.svg" /></a></li>
                     @{if (User.IsInRole("Administrator"))
                         {
@@ -51,32 +39,14 @@
         </div>
     </div>
     <div ng-app="app" class="container body-content">
-        @RenderBody()
+        @{ RenderBody(); }
+        <div ng-view></div>
     </div>
     <footer class="site-footer">
         <p>&copy; 2017 - Интернет-портал для специалистов связи</p>
     </footer>
-
-    <environment names="Development">
-        <script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
-        <script src="~/lib/angular/angular.js"></script>
-        <script src="~/js/app.module.js"></script>
-    </environment>
-    <environment names="Staging,Production">
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
-                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                asp-fallback-test="window.jQuery">
-        </script>
-        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/bootstrap.min.js"
-                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">
-        </script>
-        <script src="~/js/site.min.js" asp-append-version="true"></script>
-        <script src="~/lib/angular/angular.min.js"></script>
-        <script src="~/js/app.module.js"></script>
-    </environment>
+        <script src="~/js/build/libs.js" asp-append-version="true"></script>
+        <script src="~/js/build/app.js" asp-append-version="true"></script>
 
     @RenderSection("scripts", required: false)
 </body>

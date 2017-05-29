@@ -94,7 +94,7 @@ body {
 }
 
 ul.nav.navbar-nav a, ul.nav.navbar-nav button {
-    padding: 0 10px 0 10px;
+    padding: 5px 10px;
 }
 
     ul.nav.navbar-nav a:hover, ul.nav.navbar-nav button:hover {

@@ -1,6 +1,0 @@
-﻿@model Book
-@Html.HiddenFor(x => x.FileExtension)
-<h2 class="text-center">@Model.Name</h2>
-<hr />
-<pre>@Model.Description</pre>
-<button class="btn btn-primary" onclick="location.href = '@Url.Action("DownloadBook", "Books", new {id = Model.BookId, fileExtension = Model.FileExtension })'">Скачать книгу</button>

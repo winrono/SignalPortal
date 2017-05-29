@@ -22,5 +22,7 @@ namespace SignalmanPortal.Models.Books
         bool SaveCategories(IEnumerable<BookCategoryViewModel> categories);
 
         Book GetBookById(int id);
+
+        IEnumerable<Book> GetBooksPaginated(int? categoryId, int pageId, int itemsPerPage);
     }
 }

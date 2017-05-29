@@ -10,7 +10,7 @@
     function booksController($scope, $http, $q) {
 
         function init() {
-            var getBookCategories = $http.get('/admin/GetBookCategories').then(function (response) {
+            var getBookCategories = $http.get('/books/GetBookCategories').then(function (response) {
                 $scope.categories = [{ name: "Все" }];
                 $scope.categories = $scope.categories.concat(response.data);
             });

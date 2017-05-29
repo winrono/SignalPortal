@@ -7,8 +7,12 @@
     "jquery-validation": "1.14.0",
     "jquery-validation-unobtrusive": "3.2.6",
     "angular": "1.5.5",
+    "angular-route": "^1.6.4",
     "animate.css": "3.5.1",
     "awesome-bootstrap-checkbox": "0.3.7",
     "font-awesome": "4.6.1"
+  },
+  "resolutions": {
+    "angular": "1.6.4"
   }
 }

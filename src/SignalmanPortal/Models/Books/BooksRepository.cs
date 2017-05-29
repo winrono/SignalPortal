@@ -187,6 +187,21 @@ namespace SignalmanPortal.Models.Books
             }
         }
 
+        public IEnumerable<Book> GetBooksPaginated(int? categoryId, int pageId, int itemsPerPage)
+        {
+            if (itemsPerPage == 0)
+            {
+                itemsPerPage = 6;
+            }
 
+            var books = Books;
+
+            if (categoryId != null)
+            {
+                books = books.Where(x => x.CategoryId == categoryId);
+            }
+
+            return books = books.OrderByDescending(x => x.BookId).Skip(pageId * itemsPerPage).Take(itemsPerPage);
+        }
     }
 }

@@ -133,17 +133,6 @@ namespace SignalmanPortal.Controllers
             return View();
         }
 
-        public IActionResult GetBookCategories()
-        {
-            List<BookCategoryViewModel> categories = new List<BookCategoryViewModel>();
-            foreach (var bookCategory in _booksRepository.BookCategories)
-            {
-                categories.Add(_mapper.Map<BookCategory, BookCategoryViewModel>(bookCategory));
-            }
-
-            return new JsonResult(categories);
-        }
-
         [HttpPost]
         public IActionResult SaveCategories([FromBody] IEnumerable<BookCategoryViewModel> categories)
         {
