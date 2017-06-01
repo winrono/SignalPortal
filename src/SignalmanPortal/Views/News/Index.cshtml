@@ -5,7 +5,8 @@
         <div style="background-color:#f7f7f7; margin:0 10px; height:inherit; position:inherit; border:1px solid grey" class="novelty-inner">
             <a asp-area="" asp-controller="News" asp-action="Details" asp-route-id="@item.NoveltyId" style="display:block; width:inherit; height: inherit;" class="novelty-inner-link">
                 <p class="news-title">
-                    @Html.DisplayFor(modelItem => item.Title)
+                    @Html.DisplayFor(x => item.Title)
+                    @Html.DisplayFor(x => item.DateAdded)
                 </p>
             </a>
         </div>

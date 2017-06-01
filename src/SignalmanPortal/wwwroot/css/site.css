@@ -141,6 +141,7 @@ ul.nav.navbar-nav img {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    padding: 0 10px;
 }
 
 .admin-edit-field {
@@ -161,6 +162,7 @@ pre {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    padding: 0 10px;
 }
 
 .book-image {
@@ -180,10 +182,10 @@ pre {
     right: 10px;
 }
 
-.margin-top-10{
-    margin-top:10px;
+.margin-top-10 {
+    margin-top: 10px;
 }
 
-.list-group-item{
+.list-group-item {
     cursor: pointer;
 }
